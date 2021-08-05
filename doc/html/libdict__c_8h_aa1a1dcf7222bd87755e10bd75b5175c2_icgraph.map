@@ -1,0 +1,16 @@
+<map id="dict_empty" name="dict_empty">
+<area shape="rect" id="node1" title="Emptys a dictionary, but does not free it." alt="" coords="1144,219,1239,245"/>
+<area shape="rect" id="node2" href="$libdict__c_8h.html#a72174eec72aba6a82641de0a4859a4da" title="Emptys a dictionary and frees it." alt="" coords="1017,295,1096,321"/>
+<area shape="rect" id="node14" href="$libdict__c_8h.html#aa7ba093cd1b24d562a4f822529d946cc" title="Updates a dictionary with a new element." alt="" coords="425,168,524,195"/>
+<area shape="rect" id="node3" href="$libdict__c_8h.html#a5afcbbf2ec1aef0f3c9c5366e7de9cdc" title="Internal Function to delete an element in a struct dict." alt="" coords="572,293,679,320"/>
+<area shape="rect" id="node5" href="$libdict__c_8h.html#ac474183ee901f1980a9963e75699b6a1" title="Demonstration of how to use the library." alt="" coords="269,244,327,271"/>
+<area shape="rect" id="node6" href="$dict__c_8c.html#aee3dec796e642def84bf4dcda98772ef" title=" " alt="" coords="219,168,377,195"/>
+<area shape="rect" id="node7" href="$dict__c_8c.html#a14dad1dab59bd1a6d736cdbe147a188d" title=" " alt="" coords="108,320,171,347"/>
+<area shape="rect" id="node9" href="$dict__c_8c.html#ac3c43498837f535b458189c48bbbd91a" title=" " alt="" coords="259,345,337,372"/>
+<area shape="rect" id="node10" href="$libdict__c_8h.html#a5cc1b236df4c3e4552f652a6e46b51e1" title="Deletes an element from an array." alt="" coords="584,357,667,384"/>
+<area shape="rect" id="node11" href="$libdict__c_8h.html#ae6cc9c6a53f9b18c1a1141abced7514d" title="Emptys an array, but does not free it." alt="" coords="864,269,969,296"/>
+<area shape="rect" id="node13" href="$libdict__c_8h.html#a29796a1f7689a238011fa110e7082af9" title="Helper function to manage a dict." alt="" coords="877,523,957,549"/>
+<area shape="rect" id="node4" href="$libdict__c_8h.html#a39d71b8cb506457484e48dab3ed449ed" title="Deletes an element in a struct dict." alt="" coords="438,269,511,296"/>
+<area shape="rect" id="node8" href="$dict__c_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,320,60,347"/>
+<area shape="rect" id="node12" href="$libdict__c_8h.html#abb8df193fba807b68ce0039440c126e3" title="Emptys an array and frees it." alt="" coords="727,269,816,296"/>
+</map>

@@ -1,0 +1,17 @@
+<map id="fuzz_dict_update_del" name="fuzz_dict_update_del">
+<area shape="rect" id="node1" title=" " alt="" coords="5,325,164,352"/>
+<area shape="rect" id="node2" href="$libdict__c_8c.html#abb8df193fba807b68ce0039440c126e3" title="Emptys an array and frees it." alt="" coords="577,24,667,50"/>
+<area shape="rect" id="node4" href="$libdict__c_8c.html#a72174eec72aba6a82641de0a4859a4da" title="Emptys a dictionary and frees it." alt="" coords="889,74,968,101"/>
+<area shape="rect" id="node6" href="$libdict__c_8c.html#a39d71b8cb506457484e48dab3ed449ed" title="Deletes an element in a struct dict." alt="" coords="228,200,301,226"/>
+<area shape="rect" id="node9" href="$libdict__c_8c.html#aa7ba093cd1b24d562a4f822529d946cc" title="Updates a dictionary with a new element." alt="" coords="215,325,314,352"/>
+<area shape="rect" id="node12" href="$dict__c_8c.html#a8b0365f511d9ce7a99174c2a3aed6f2e" title=" " alt="" coords="212,376,317,402"/>
+<area shape="rect" id="node13" href="$dict__c_8c.html#a8fa0622e0ac8920182521e692bc6bdfa" title=" " alt="" coords="215,552,315,578"/>
+<area shape="rect" id="node15" href="$dict__c_8c.html#a4d9a5c5af5a573814b0bd0cf170d8d82" title=" " alt="" coords="556,526,688,553"/>
+<area shape="rect" id="node3" href="$libdict__c_8c.html#ae6cc9c6a53f9b18c1a1141abced7514d" title="Emptys an array, but does not free it." alt="" coords="736,24,841,50"/>
+<area shape="rect" id="node5" href="$libdict__c_8c.html#aa3b187986f610dbfe0e7138ecaf5b834" title="Emptys a dictionary, but does not free it." alt="" coords="1016,74,1111,101"/>
+<area shape="rect" id="node7" href="$libdict__c_8c.html#a5afcbbf2ec1aef0f3c9c5366e7de9cdc" title="Internal Function to delete an element in a struct dict." alt="" coords="383,149,490,176"/>
+<area shape="rect" id="node8" href="$libdict__c_8c.html#a6adcde67820b6ed0035482b4840af927" title="Initializes a new dictionary of type struct dict." alt="" coords="582,237,662,264"/>
+<area shape="rect" id="node10" href="$libdict__c_8c.html#a168501876a8d0db7bf445a297c7f97d3" title="Internal function to add a value to a dictonary." alt="" coords="391,274,482,301"/>
+<area shape="rect" id="node11" href="$libdict__c_8c.html#adb819e34a450056c2bffd8581488cc59" title="Internal Function to get an element without descending." alt="" coords="365,450,508,477"/>
+<area shape="rect" id="node14" href="$dict__c_8c.html#ab12f29ad9b3dc37ab7ea54fe9d026052" title=" " alt="" coords="389,552,484,578"/>
+</map>

@@ -1,0 +1,27 @@
+<map id="demo" name="demo">
+<area shape="rect" id="node1" title="Demonstration of how to use the library." alt="" coords="5,559,64,585"/>
+<area shape="rect" id="node2" href="$libdict__c_8c.html#adb819e34a450056c2bffd8581488cc59" title="Internal Function to get an element without descending." alt="" coords="277,29,420,56"/>
+<area shape="rect" id="node3" href="$libdict__c_8c.html#ada81cad02a043843e3b8f60962351e64" title="Adds an element to an array." alt="" coords="127,659,214,685"/>
+<area shape="rect" id="node4" href="$libdict__c_8c.html#a459a17f26c951e423806a07ada1f9a09" title="Initializes a new array of type struct array." alt="" coords="303,635,394,661"/>
+<area shape="rect" id="node5" href="$libdict__c_8c.html#a5cc1b236df4c3e4552f652a6e46b51e1" title="Deletes an element from an array." alt="" coords="129,483,212,509"/>
+<area shape="rect" id="node8" href="$libdict__c_8c.html#a72174eec72aba6a82641de0a4859a4da" title="Emptys a dictionary and frees it." alt="" coords="805,432,884,459"/>
+<area shape="rect" id="node10" href="$libdict__c_8c.html#a7c9222272e266e1bbc5d14725f241e37" title="Gets an element from an array." alt="" coords="307,584,391,611"/>
+<area shape="rect" id="node12" href="$libdict__c_8c.html#a5e98bb8536384f22972a8e77b0ecee1d" title="Prints an array recursivly as JSON." alt="" coords="121,709,221,736"/>
+<area shape="rect" id="node14" href="$libdict__c_8c.html#ad37a3c20b8a339bf0f802d72293aaf34" title="Prints a dictonary recursivly as JSON." alt="" coords="476,772,567,799"/>
+<area shape="rect" id="node18" href="$libdict__c_8c.html#a1c4e82285e2e5265bc733ad43d3f6ac3" title="Internal function to recursivly print an array structure." alt="" coords="112,760,229,787"/>
+<area shape="rect" id="node19" href="$libdict__c_8c.html#a39d71b8cb506457484e48dab3ed449ed" title="Deletes an element in a struct dict." alt="" coords="134,381,207,408"/>
+<area shape="rect" id="node21" href="$libdict__c_8c.html#a6adcde67820b6ed0035482b4840af927" title="Initializes a new dictionary of type struct dict." alt="" coords="481,256,561,283"/>
+<area shape="rect" id="node22" href="$libdict__c_8c.html#a3257c1967a6c8ba2bd904937e6ee4a8c" title="Prints a dictonary recursivly as JSON to a string." alt="" coords="468,848,575,875"/>
+<area shape="rect" id="node23" href="$libdict__c_8c.html#ab5c4334a5354859df367e1bf8a050f15" title="Function to get an element from a dictionary." alt="" coords="133,912,208,939"/>
+<area shape="rect" id="node24" href="$libdict__c_8c.html#aa7ba093cd1b24d562a4f822529d946cc" title="Updates a dictionary with a new element." alt="" coords="121,155,220,181"/>
+<area shape="rect" id="node6" href="$libdict__c_8c.html#abb8df193fba807b68ce0039440c126e3" title="Emptys an array and frees it." alt="" coords="477,457,566,484"/>
+<area shape="rect" id="node7" href="$libdict__c_8c.html#ae6cc9c6a53f9b18c1a1141abced7514d" title="Emptys an array, but does not free it." alt="" coords="623,457,728,484"/>
+<area shape="rect" id="node9" href="$libdict__c_8c.html#aa3b187986f610dbfe0e7138ecaf5b834" title="Emptys a dictionary, but does not free it." alt="" coords="971,432,1066,459"/>
+<area shape="rect" id="node11" href="$libdict__c_8c.html#a8dad6d11fa54bf85129156f410b8bdb0" title="Returns the length of an array." alt="" coords="480,608,563,635"/>
+<area shape="rect" id="node13" href="$libdict__c_8c.html#adef177566b15aba5dc4b094d94787551" title="Internal function to recursivly print an array structure." alt="" coords="295,760,402,787"/>
+<area shape="rect" id="node15" href="$libdict__c_8c.html#a50040fb6b2829de2eaf2d9f682990ce4" title="Internal function to recursivly print a dict structure." alt="" coords="627,772,724,799"/>
+<area shape="rect" id="node16" href="$libdict__c_8c.html#a3af1dca169193e36f9c68ebe09d07576" title="Print one elment of type struct dict." alt="" coords="776,772,913,799"/>
+<area shape="rect" id="node17" href="$libdict__c_8c.html#ab03c38de6344768b13bc1f2648cc5ad2" title="Converts type defintions into strings." alt="" coords="961,772,1076,799"/>
+<area shape="rect" id="node20" href="$libdict__c_8c.html#a5afcbbf2ec1aef0f3c9c5366e7de9cdc" title="Internal Function to delete an element in a struct dict." alt="" coords="295,381,402,408"/>
+<area shape="rect" id="node25" href="$libdict__c_8c.html#a168501876a8d0db7bf445a297c7f97d3" title="Internal function to add a value to a dictonary." alt="" coords="303,155,394,181"/>
+</map>

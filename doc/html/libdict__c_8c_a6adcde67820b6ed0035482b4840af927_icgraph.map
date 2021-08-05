@@ -1,0 +1,13 @@
+<map id="dict_new" name="dict_new">
+<area shape="rect" id="node1" title="Initializes a new dictionary of type struct dict." alt="" coords="727,180,807,207"/>
+<area shape="rect" id="node2" href="$libdict__c_8h.html#a168501876a8d0db7bf445a297c7f97d3" title="Internal function to add a value to a dictonary." alt="" coords="580,217,671,244"/>
+<area shape="rect" id="node3" href="$libdict__c_8h.html#aa7ba093cd1b24d562a4f822529d946cc" title="Updates a dictionary with a new element." alt="" coords="425,167,524,193"/>
+<area shape="rect" id="node4" href="$libdict__c_8h.html#ac474183ee901f1980a9963e75699b6a1" title="Demonstration of how to use the library." alt="" coords="269,92,327,119"/>
+<area shape="rect" id="node6" href="$dict__c_8c.html#a14dad1dab59bd1a6d736cdbe147a188d" title=" " alt="" coords="108,231,171,257"/>
+<area shape="rect" id="node8" href="$dict__c_8c.html#ac3c43498837f535b458189c48bbbd91a" title=" " alt="" coords="259,205,337,232"/>
+<area shape="rect" id="node9" href="$libdict__c_8h.html#a5afcbbf2ec1aef0f3c9c5366e7de9cdc" title="Internal Function to delete an element in a struct dict." alt="" coords="572,92,679,119"/>
+<area shape="rect" id="node10" href="$libdict__c_8h.html#a39d71b8cb506457484e48dab3ed449ed" title="Deletes an element in a struct dict." alt="" coords="438,92,511,119"/>
+<area shape="rect" id="node11" href="$libdict__c_8h.html#a29796a1f7689a238011fa110e7082af9" title="Helper function to manage a dict." alt="" coords="585,369,665,396"/>
+<area shape="rect" id="node5" href="$dict__c_8c.html#aee3dec796e642def84bf4dcda98772ef" title=" " alt="" coords="219,155,377,181"/>
+<area shape="rect" id="node7" href="$dict__c_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,231,60,257"/>
+</map>

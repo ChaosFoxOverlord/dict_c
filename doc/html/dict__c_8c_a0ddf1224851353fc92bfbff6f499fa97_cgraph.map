@@ -1,0 +1,28 @@
+<map id="main" name="main">
+<area shape="rect" id="node1" title=" " alt="" coords="5,259,60,285"/>
+<area shape="rect" id="node2" href="$dict__c_8c.html#a14dad1dab59bd1a6d736cdbe147a188d" title=" " alt="" coords="108,259,171,285"/>
+<area shape="rect" id="node3" href="$libdict__c_8c.html#ada81cad02a043843e3b8f60962351e64" title="Adds an element to an array." alt="" coords="255,96,341,123"/>
+<area shape="rect" id="node4" href="$libdict__c_8c.html#a459a17f26c951e423806a07ada1f9a09" title="Initializes a new array of type struct array." alt="" coords="433,5,523,32"/>
+<area shape="rect" id="node5" href="$libdict__c_8c.html#ad37a3c20b8a339bf0f802d72293aaf34" title="Prints a dictonary recursivly as JSON." alt="" coords="253,153,343,180"/>
+<area shape="rect" id="node10" href="$libdict__c_8c.html#ab03c38de6344768b13bc1f2648cc5ad2" title="Converts type defintions into strings." alt="" coords="778,183,893,209"/>
+<area shape="rect" id="node11" href="$libdict__c_8c.html#a72174eec72aba6a82641de0a4859a4da" title="Emptys a dictionary and frees it." alt="" coords="796,335,875,361"/>
+<area shape="rect" id="node15" href="$libdict__c_8c.html#a6adcde67820b6ed0035482b4840af927" title="Initializes a new dictionary of type struct dict." alt="" coords="795,485,875,512"/>
+<area shape="rect" id="node16" href="$dict__c_8c.html#aee3dec796e642def84bf4dcda98772ef" title=" " alt="" coords="219,699,377,725"/>
+<area shape="rect" id="node25" href="$dict__c_8c.html#a4d9a5c5af5a573814b0bd0cf170d8d82" title=" " alt="" coords="769,913,901,940"/>
+<area shape="rect" id="node26" href="$dict__c_8c.html#a7d3ae239f989d86a1f4365f4c607154d" title=" " alt="" coords="247,825,349,852"/>
+<area shape="rect" id="node6" href="$libdict__c_8c.html#a50040fb6b2829de2eaf2d9f682990ce4" title="Internal function to recursivly print a dict structure." alt="" coords="429,153,527,180"/>
+<area shape="rect" id="node7" href="$libdict__c_8c.html#a5e98bb8536384f22972a8e77b0ecee1d" title="Prints an array recursivly as JSON." alt="" coords="600,107,700,133"/>
+<area shape="rect" id="node9" href="$libdict__c_8c.html#a3af1dca169193e36f9c68ebe09d07576" title="Print one elment of type struct dict." alt="" coords="581,157,719,184"/>
+<area shape="rect" id="node8" href="$libdict__c_8c.html#adef177566b15aba5dc4b094d94787551" title="Internal function to recursivly print an array structure." alt="" coords="782,107,889,133"/>
+<area shape="rect" id="node12" href="$libdict__c_8c.html#aa3b187986f610dbfe0e7138ecaf5b834" title="Emptys a dictionary, but does not free it." alt="" coords="949,360,1044,387"/>
+<area shape="rect" id="node13" href="$libdict__c_8c.html#abb8df193fba807b68ce0039440c126e3" title="Emptys an array and frees it." alt="" coords="1092,385,1181,412"/>
+<area shape="rect" id="node14" href="$libdict__c_8c.html#ae6cc9c6a53f9b18c1a1141abced7514d" title="Emptys an array, but does not free it." alt="" coords="1229,385,1335,412"/>
+<area shape="rect" id="node17" href="$libdict__c_8c.html#a39d71b8cb506457484e48dab3ed449ed" title="Deletes an element in a struct dict." alt="" coords="441,485,515,512"/>
+<area shape="rect" id="node19" href="$libdict__c_8c.html#aa7ba093cd1b24d562a4f822529d946cc" title="Updates a dictionary with a new element." alt="" coords="429,661,527,688"/>
+<area shape="rect" id="node22" href="$dict__c_8c.html#a8b0365f511d9ce7a99174c2a3aed6f2e" title=" " alt="" coords="425,787,531,813"/>
+<area shape="rect" id="node23" href="$dict__c_8c.html#a8fa0622e0ac8920182521e692bc6bdfa" title=" " alt="" coords="428,837,528,864"/>
+<area shape="rect" id="node18" href="$libdict__c_8c.html#a5afcbbf2ec1aef0f3c9c5366e7de9cdc" title="Internal Function to delete an element in a struct dict." alt="" coords="597,384,703,411"/>
+<area shape="rect" id="node20" href="$libdict__c_8c.html#a168501876a8d0db7bf445a297c7f97d3" title="Internal function to add a value to a dictonary." alt="" coords="605,611,695,637"/>
+<area shape="rect" id="node21" href="$libdict__c_8c.html#adb819e34a450056c2bffd8581488cc59" title="Internal Function to get an element without descending." alt="" coords="579,736,721,763"/>
+<area shape="rect" id="node24" href="$dict__c_8c.html#ab12f29ad9b3dc37ab7ea54fe9d026052" title=" " alt="" coords="603,837,697,864"/>
+</map>
