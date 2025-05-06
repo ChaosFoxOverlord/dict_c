@@ -30,6 +30,133 @@ long long int num_del = 0;
 long long int num_upd = 0;
 #endif
 
+void demo(){
+    struct dict* dict = dict_new();
+    struct dict* search_dict = NULL;
+    struct array* array = NULL;
+    union json_type value;
+    char* output = 0;
+
+    fprintf(stderr, "\n\nDEMO:\n\n");
+
+    //test update
+    
+    value.string = "test";
+    dict_update(dict, JSON_STR, value, 3, "0", "2", "1");
+    dict_dump(stderr, dict); fprintf(stderr,"\n");
+  
+
+    value.string = "2";
+    dict_update(dict, JSON_STR, value, 1, "2");
+    dict_dump(stderr, dict); fprintf(stderr,"\n");
+    
+    dict_del(&dict, 1, "2");
+    dict_dump(stderr, dict); fprintf(stderr,"\n");
+
+    value.integer = 5;
+    dict_update(dict, JSON_INT, value, 1, "Lamb");
+    fprintf(stderr, "%s\n", output = dict_dumpstr(dict)); free(output);
+
+    value.string = "Hurz";
+    dict_update(dict, JSON_STR, value, 1, "Wolf");
+
+    fprintf(stderr, "%s\n", output = dict_dumpstr(dict)); free(output);
+
+    fprintf(stderr, "%s\n", output = dict_dumpstr(dict)); free(output);
+    fprintf(stderr, "\n");
+
+    value.object = dict_new();
+    dict_update(dict, JSON_OBJ, value, 1, "INNER");
+    search_dict = __dict_plainsearch(dict, "INNER", &search_dict);
+
+    value.string = "Hurz";
+    dict_update(dict, JSON_STR, value, 1, "Tiger");
+
+    fprintf(stderr, "%s\n", output = dict_dumpstr(dict)); free(output);
+
+    value.boolean = false;
+    dict_update(dict, JSON_BOOL, value, 2, "INNER", "Cougar");
+
+    fprintf(stderr, "%s\n", output = dict_dumpstr(dict)); free(output);
+
+
+    dict_update(dict, JSON_NULL, value, 2, "INNER", "Rabbit");
+    value.boolean = true;
+    dict_update(dict, JSON_BOOL, value, 2, "INNER", "Fox");
+  
+    value.array = array_new();
+    dict_update(dict, JSON_ARRAY, value, 2, "INNER", "ARRAY");
+
+    fprintf(stderr, "%s\n", output = dict_dumpstr(dict)); free(output);
+    dict_update(dict, JSON_NULL, value, 5, "0", "1", "2", "3", "No");
+    dict_update(dict, JSON_NULL, value, 5, "INNER", "1", "2", "3", "five");
+    
+    value.hex.number = 10; value.hex.format = HEX_FORMAT_04;
+    array_add(dict_get(dict, 2, "INNER", "ARRAY")->value.array, JSON_HEX, value);
+    value.string = "asdfjklo";
+    array_add(dict_get(dict, 2, "INNER", "ARRAY")->value.array, JSON_STR, value);
+    value.object = dict_new();
+    array_add(dict_get(dict, 2, "INNER", "ARRAY")->value.array, JSON_OBJ, value);
+
+    value.hex.number = 0xDEADBEEF; value.hex.format = HEX_FORMAT_STD;
+    dict_update(array_get(dict_get(dict, 2, "INNER", "ARRAY")->value.array, 2)->value.object, JSON_HEX, value, 1, "DEADBEEF");
+
+    array_dump(stderr, array_get(dict_get(dict, 2, "INNER", "ARRAY")->value.array, 2)); fprintf(stderr, "\n");
+
+    fprintf(stderr, "%s\n", output = dict_dumpstr(dict)); free(output);
+
+    search_dict = dict_get(dict, 2, "INNER", "ARRAY");
+    fprintf(stderr, "Type %d\n", search_dict ? search_dict->type : -1);
+
+    fprintf(stderr, "%s\n", output = dict_dumpstr(dict)); free(output);
+    fprintf(stderr, "\n");
+
+    search_dict = dict_get(dict, 1, "Lamb");
+    fprintf(stderr, "Type %d\n", search_dict ? search_dict->type : -1);
+
+    value.boolean = false;
+    dict_update(dict, JSON_BOOL, value, 2, "INNER", "Carlin");
+
+
+    //Array operations
+    array = dict_get(dict, 2, "INNER", "ARRAY")->value.array;
+    fprintf(stderr, "%s\n", output = array_dumpstr(array)); free(output);
+    array_del(array, 2);
+    fprintf(stderr, "%s\n", output = array_dumpstr(array)); free(output);
+    array_del(array, 1);
+    fprintf(stderr, "%s\n", output = array_dumpstr(array)); free(output);
+    array_del(array, 0);
+    fprintf(stderr, "%s\n", output = array_dumpstr(array)); free(output);
+    fprintf(stderr, "\n");
+
+
+    fprintf(stderr, "%s\n", output = dict_dumpstr(dict)); free(output);
+
+    dict_del(&dict, 2, "INNER", "Carlin");
+    dict_del(&dict, 2, "INNER", "Rabbit");
+    dict_del(&dict, 2, "INNER", "Fox");
+
+    value.boolean = true;
+    dict_update(dict, JSON_BOOL, value, 2, "INNER", "Bear");
+    
+    fprintf(stderr, "%s\n", output = dict_dumpstr(dict)); free(output);
+
+    //delete dict contents
+
+    fprintf(stderr, "RETURN: %d\n", dict_del(&dict, 2, "INNER", "Cougar"));
+    fprintf(stderr, "RETURN: %d\n", dict_del(&dict, 1, "Wolf"));
+
+    fprintf(stderr, "%s\n", output = dict_dumpstr(dict)); free(output);
+
+    //dict_update existing
+    value.floating = 3.14;
+    dict_update(dict, JSON_FLOAT, value, 2, "INNER", "ARRAY"); 
+
+    fprintf(stderr, "%s\n", output = dict_dumpstr(dict)); free(output);
+    dict_free(dict);
+    return;
+}
+
 int test_dict(){
     struct dict* dict = dict_new();
     struct dict* search_dict = NULL;
@@ -420,7 +547,7 @@ int fuzzer(int argc, char *argv[]) {
 
     srandom(start);
     long long unsigned int loop = 0;
-    long long unsigned int max_loops = 10000000;//4000000000;
+    long long unsigned int max_loops = 4000000000;
     for(loop = 0; loop<max_loops; loop++) {
         type = getrandtype();
         if(loglevel || loop % 100000 == 0) {
@@ -503,8 +630,8 @@ int fuzzer(int argc, char *argv[]) {
 int main(int argc, char *argv[]) {
     fprintf(stderr, "libdict_c  Copyright (C) 2021 CFOV, github [dot] fox [at] thevoid [dot] email\nThis program comes with ABSOLUTELY NO WARRANTY;\nThis is free software, and you are welcome to redistribute it under certain conditions");
     loglevel = 0;
-    return fuzzer(argc, argv);
+    //return fuzzer(argc, argv);
     //return test_dict();
-    //demo();
+    demo();
     return 0;
 }
