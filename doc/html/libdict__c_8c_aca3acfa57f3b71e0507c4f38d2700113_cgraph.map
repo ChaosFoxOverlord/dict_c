@@ -1,0 +1,6 @@
+<map id="array_get" name="array_get">
+<area shape="rect" id="Node000001" title="Gets an element from an array." alt="" coords="5,29,81,55"/>
+<area shape="rect" id="Node000002" href="$libdict__c_8c.html#a8dad6d11fa54bf85129156f410b8bdb0" title="Returns the length of an array." alt="" coords="129,29,204,55"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="82,39,116,39,116,45,82,45"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="145,30,141,21,143,11,152,5,167,3,184,6,191,14,187,18,181,11,167,8,154,10,148,14,146,20,150,28"/>
+</map>

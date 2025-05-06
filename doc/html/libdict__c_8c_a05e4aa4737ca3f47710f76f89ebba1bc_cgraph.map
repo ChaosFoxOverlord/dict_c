@@ -1,0 +1,6 @@
+<map id="array_add" name="array_add">
+<area shape="rect" id="Node000001" title="Adds an element to an array." alt="" coords="5,29,84,55"/>
+<area shape="poly" id="edge1_Node000001_Node000001" title=" " alt="" coords="23,30,18,21,20,11,30,5,45,3,62,6,70,14,66,18,60,11,45,8,32,10,25,14,23,20,27,28"/>
+<area shape="rect" id="Node000002" href="$libdict__c_8c.html#acd45ee7ac5de1808538e7791b58da7aa" title="Initializes a new array of type struct array." alt="" coords="132,29,215,55"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="84,39,118,39,118,45,84,45"/>
+</map>

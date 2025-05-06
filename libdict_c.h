@@ -27,6 +27,10 @@
 
 //Enable or disable dynamic path update capability
 #define DICT_DYN_PATH_UPDATES 1
+//defines for returnvalues
+#define DICT_DELREC_NOT_FOUND 0
+#define DICT_DELREC_FIRST_DELETED 1
+#define DICT_DELREC_OTHER_THEN_FIRST_DELETED 2
 
 /**
  * \brief Constants for type definition in JSON-Dictionaries and -Arrays
@@ -62,39 +66,28 @@
  *      char* json_typetostr(int json_type)
  *
  */
-#define JSON_EMPTY_AS_STR "Emtpy"
-#define JSON_NULL_AS_STR "NULL Type"
-#define JSON_BOOL_AS_STR "Boolean"
-#define JSON_INT_AS_STR "Integer" 
-#define JSON_FLOAT_AS_STR "Floating Point Number"
-#define JSON_HEX_AS_STR "Hexadecimal Number"
-#define JSON_STR_AS_STR "String"
-#define JSON_ARRAY_AS_STR "Array"
-#define JSON_OBJ_AS_STR "Object"
+#define JSON_EMPTY_AS_HRSTR "Emtpy"
+#define JSON_NULL_AS_HRSTR "NULL Type"
+#define JSON_BOOL_AS_HRSTR "Boolean"
+#define JSON_INT_AS_HRSTR "Integer" 
+#define JSON_FLOAT_AS_HRSTR "Floating Point Number"
+#define JSON_HEX_AS_HRSTR "Hexadecimal Number"
+#define JSON_STR_AS_HRSTR "String"
+#define JSON_ARRAY_AS_HRSTR "Array"
+#define JSON_OBJ_AS_HRSTR "Object"
 
 
 /**
  * \brief Constants for output of hexadecimal numbers as string
  *
- *     Lookup is done by libdict_c.c:const char* __json_hex_format[]
+ *     Format String lookup is done by libdict_c.c:const char* __json_hex_format[HEX_FORMAT_*]
+ *     with one of the HEX_FORMAT_* constants as defined here.
  */
 #define HEX_FORMAT_STD 0
 #define HEX_FORMAT_02  1
 #define HEX_FORMAT_04  2
-#define HEX_FORMAT_08  3
-
-/**
- * \brief Format strings for output of hexadecimal numbers as string
- *
- *     Defines the format strings for use with the defined constants HEX_FORMAT_*
- *
- */
-const char* __json_hex_format[] = {
-    "\"0x%lx\"",   //HEX_FORMAT_STD
-    "\"0x%02lx\"", //HEX_FORMAT_02
-    "\"0x%04lx\"", //HEX_FORMAT_04
-    "\"0x%08lx\"" //HEX_FORMAT_08
-};
+#define HEX_FORMAT_05  3
+#define HEX_FORMAT_08  4
 
 /**
  * \brief Representation of JSON-Types
@@ -109,7 +102,7 @@ union json_type {
     long long int integer;
     struct {
         unsigned long int number;
-        u_int8_t format; //Use HEX_FORMAT_* constants!
+        __uint8_t format; //Use HEX_FORMAT_* constants!
     } hex;
     char* string;
     struct array* array;
@@ -293,8 +286,6 @@ struct array* array_add(struct array* array, __uint8_t type, union json_type val
  *          dict_update(array_get(dict_get(dict, 2, "INNER", "ARRAY")->value.array, 2)->value.object, JSON_HEX, value, 1, "DEADBEEF");
  *     Results in:
  *     {"Lamb":5, "Wolf":"Hurz", "INNER":{"Puma":false, "Rabbit":null, "Fox":true, "ARRAY":["0x000a", "asdfjklo", {"DEADBEEF":"0xdeadbeef"}]}}
-
- *     See demo() function for more examples.
  *     
  * \param dict struct dict to update with new element
  * \param type data type of new element
@@ -332,13 +323,13 @@ struct dict* __dict_add(struct dict* dict, __uint8_t type, union json_type value
 void dict_dump(FILE* fp, struct dict* dict);
 
 /**
- * \brief Prints a dictonary recursivly as JSON to a string
+ * \brief Dumps a dictonary recursivly as JSON to a string
  *
- *     Prints a dictonary, descending recursivly in dict/array structures as JSON in a string.
- *     The string must be freed be calling function!
+ *     Dumps a dictonary, descending recursivly in dict/array structures as JSON, by returning a string.
+ *     The string must be freed by calling function!
  *     
  * \param dict address of struct dict to print recursivly
- * \return Pointer to resulting string
+ * \return Pointer to resulting string; has to be freed in calling function.
  *
  */
 char* dict_dumpstr(struct dict* dict);
@@ -377,12 +368,13 @@ void array_dump(FILE* fp, struct array* array);
 char* array_dumpstr(struct array* array);
 
 /**
- * \brief Internal function to recursivly print an array structure
+ * \brief Internal function to recursivly dump an array structure as JSON to a string.
  *
- *     Prints an array, descending recursivly in dict/array structures as JSON.
+ *     Dumps an array, descending recursivly in dict/array structures as JSON, by returning a string.
+ *     The string must be freed by calling function!
  *     
  * \param fp File pointer for output, e.g. stderr
- * \param array address of struct array to print recursivly
+ * \param array address of struct array to print recursivly; has to be freed in calling function.
  *
  */
 void __array_print(FILE* fp, struct array* array);
@@ -507,13 +499,14 @@ bool dict_del(struct dict** dict_ptr, int path_len, ...);
  *     Deletes an element in a struct dict, given a path to the element.
   *     
  * \param dict struct dict to delete element from
+ * \param first_dict first element of struct dict, which should equal dict when starting to recurse
  * \param path_len length of variadic list, specifiying the path to the element beeing deleted
  * \param next_key next key on path
  * \param keys list of keys as va_list, specifying the rest of the path to the element beeing deleted
- * \return Address of deleted element, if deletion was succesfull, NULL if not found
+ * \return If first_dict has been succesfully deleted DICT_DELREC_FIRST_DELETED (== 1), if another element has been successfully deleted DICT_DELREC_OTHER_THEN_FIRST_DELETED (== 2), DICT_DELREC_NOT_FOUND ( == 0) if not found
  *
  */
-struct dict* __dict_delrec(struct dict* dict, int path_len, char* next_key, va_list keys);
+unsigned int __dict_delrec(struct dict* dict, struct dict* first_dict, int path_len, char* next_key, va_list keys);
 
 /**
  * \brief Returns the length of an array
@@ -564,13 +557,5 @@ bool array_del(struct array* array, long int pos);
  *
  */
 bool dict_append(struct dict* source_dict, struct dict* dest_dict);
-
-/**
- * \brief Demonstration of how to use the library
- *
- *     Some example code for demonstration of how to use the library
- *     
- */
-void demo();
 
 #endif

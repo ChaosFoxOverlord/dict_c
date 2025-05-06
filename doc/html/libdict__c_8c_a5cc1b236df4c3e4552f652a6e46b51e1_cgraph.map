@@ -1,9 +1,21 @@
 <map id="array_del" name="array_del">
-<area shape="rect" id="node1" title="Deletes an element from an array." alt="" coords="5,29,88,56"/>
-<area shape="rect" id="node2" href="$libdict__c_8c.html#abb8df193fba807b68ce0039440c126e3" title="Emptys an array and frees it." alt="" coords="136,29,225,56"/>
-<area shape="rect" id="node4" href="$libdict__c_8c.html#a72174eec72aba6a82641de0a4859a4da" title="Emptys a dictionary and frees it." alt="" coords="427,29,505,56"/>
-<area shape="rect" id="node6" href="$libdict__c_8c.html#a7c9222272e266e1bbc5d14725f241e37" title="Gets an element from an array." alt="" coords="139,117,223,144"/>
-<area shape="rect" id="node3" href="$libdict__c_8c.html#ae6cc9c6a53f9b18c1a1141abced7514d" title="Emptys an array, but does not free it." alt="" coords="273,29,379,56"/>
-<area shape="rect" id="node5" href="$libdict__c_8c.html#aa3b187986f610dbfe0e7138ecaf5b834" title="Emptys a dictionary, but does not free it." alt="" coords="553,29,648,56"/>
-<area shape="rect" id="node7" href="$libdict__c_8c.html#a8dad6d11fa54bf85129156f410b8bdb0" title="Returns the length of an array." alt="" coords="285,155,367,181"/>
+<area shape="rect" id="Node000001" title="Deletes an element from an array." alt="" coords="5,29,80,55"/>
+<area shape="rect" id="Node000002" href="$libdict__c_8c.html#abb8df193fba807b68ce0039440c126e3" title="Emptys an array and frees it." alt="" coords="128,29,208,55"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="80,39,114,39,114,45,80,45"/>
+<area shape="rect" id="Node000004" href="$libdict__c_8c.html#a72174eec72aba6a82641de0a4859a4da" title="Emptys a dictionary and frees it." alt="" coords="399,29,471,55"/>
+<area shape="poly" id="edge12_Node000001_Node000004" title=" " alt="" coords="78,27,128,14,190,6,239,3,289,6,351,14,388,23,386,28,350,19,288,11,239,8,191,11,128,19,79,32"/>
+<area shape="rect" id="Node000006" href="$libdict__c_8c.html#aca3acfa57f3b71e0507c4f38d2700113" title="Gets an element from an array." alt="" coords="130,116,206,141"/>
+<area shape="poly" id="edge9_Node000001_Node000006" title=" " alt="" coords="64,53,139,106,136,110,61,57"/>
+<area shape="rect" id="Node000003" href="$libdict__c_8c.html#a8dc3c0ff7c9b7e91191f9e473ea16d95" title="Emptys an array, but does not free it." alt="" coords="256,29,351,55"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="208,48,243,48,242,54,208,53"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="256,36,222,36,222,31,256,31"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="351,39,385,39,385,45,351,45"/>
+<area shape="poly" id="edge8_Node000004_Node000004" title=" " alt="" coords="413,30,409,21,411,11,420,5,435,3,452,6,460,14,456,18,449,11,435,8,422,10,415,14,414,20,418,28"/>
+<area shape="rect" id="Node000005" href="$libdict__c_8c.html#aa3b187986f610dbfe0e7138ecaf5b834" title="Emptys a dictionary, but does not free it." alt="" coords="519,29,605,55"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="471,47,505,48,505,54,471,53"/>
+<area shape="poly" id="edge6_Node000005_Node000002" title=" " alt="" coords="522,57,471,69,363,78,316,76,256,69,219,61,220,56,256,63,316,71,363,73,470,63,521,52"/>
+<area shape="poly" id="edge7_Node000005_Node000004" title=" " alt="" coords="519,36,484,36,484,31,519,31"/>
+<area shape="rect" id="Node000007" href="$libdict__c_8c.html#a8dad6d11fa54bf85129156f410b8bdb0" title="Returns the length of an array." alt="" coords="266,155,341,180"/>
+<area shape="poly" id="edge10_Node000006_Node000007" title=" " alt="" coords="207,137,253,150,252,156,206,142"/>
+<area shape="poly" id="edge11_Node000007_Node000007" title=" " alt="" coords="281,156,276,146,279,137,288,130,303,128,321,131,329,140,325,143,319,136,303,133,290,135,283,140,282,146,286,153"/>
 </map>

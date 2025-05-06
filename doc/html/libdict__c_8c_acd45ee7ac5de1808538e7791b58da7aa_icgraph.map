@@ -1,0 +1,14 @@
+<map id="array_new" name="array_new">
+<area shape="rect" id="Node000001" title="Initializes a new array of type struct array." alt="" coords="351,47,433,72"/>
+<area shape="rect" id="Node000002" href="$libdict__c_8c.html#a05e4aa4737ca3f47710f76f89ebba1bc" title="Adds an element to an array." alt="" coords="224,47,303,72"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="337,62,303,62,303,57,337,57"/>
+<area shape="rect" id="Node000003" href="$dict__c_8c.html#a14dad1dab59bd1a6d736cdbe147a188d" title=" " alt="" coords="111,23,169,48"/>
+<area shape="poly" id="edge6_Node000001_Node000003" title=" " alt="" coords="361,41,333,25,302,13,267,8,232,11,170,26,169,21,231,6,267,3,303,7,336,20,364,36"/>
+<area shape="rect" id="Node000005" href="$dict__c_8c.html#ac3c43498837f535b458189c48bbbd91a" title=" " alt="" coords="104,72,176,97"/>
+<area shape="poly" id="edge7_Node000001_Node000005" title=" " alt="" coords="343,78,303,87,236,92,176,90,176,85,235,86,302,82,342,73"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="284,35,278,28,263,25,251,27,244,32,243,38,247,45,242,48,238,38,240,29,249,22,263,20,280,23,288,32"/>
+<area shape="poly" id="edge3_Node000002_Node000003" title=" " alt="" coords="210,52,169,44,170,38,211,46"/>
+<area shape="poly" id="edge5_Node000002_Node000005" title=" " alt="" coords="211,73,177,80,176,75,210,67"/>
+<area shape="rect" id="Node000004" href="$dict__c_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,23,56,48"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="97,38,56,38,56,33,97,33"/>
+</map>

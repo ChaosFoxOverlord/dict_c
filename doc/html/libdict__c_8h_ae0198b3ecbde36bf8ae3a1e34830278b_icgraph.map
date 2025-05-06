@@ -1,0 +1,30 @@
+<map id="dict_new" name="dict_new">
+<area shape="rect" id="Node000001" title="Initializes a new dictionary of type struct dict." alt="" coords="688,213,763,238"/>
+<area shape="rect" id="Node000002" href="$libdict__c_8c.html#a1de4639c1a0a2a8779960ef9a3dcf0f9" title="Internal function to add a value to a dictonary." alt="" coords="548,213,633,238"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="674,228,634,228,634,223,674,223"/>
+<area shape="rect" id="Node000003" href="$libdict__c_8c.html#a05673d028adb14fc9563503711ed9a9d" title="Updates a dictionary with a new element." alt="" coords="404,213,493,238"/>
+<area shape="poly" id="edge15_Node000001_Node000003" title=" " alt="" coords="677,245,640,254,591,258,541,254,486,241,487,236,542,248,591,253,640,248,676,240"/>
+<area shape="rect" id="Node000005" href="$dict__c_8c.html#a14dad1dab59bd1a6d736cdbe147a188d" title=" " alt="" coords="104,76,163,101"/>
+<area shape="poly" id="edge16_Node000001_Node000005" title=" " alt="" coords="718,200,709,165,695,124,671,84,656,67,639,53,609,37,577,25,511,11,442,9,373,16,309,29,250,46,164,78,162,73,249,41,307,24,373,11,442,4,511,6,579,20,611,32,641,49,660,63,676,81,699,121,714,163,723,199"/>
+<area shape="rect" id="Node000007" href="$dict__c_8c.html#ac3c43498837f535b458189c48bbbd91a" title=" " alt="" coords="247,213,319,238"/>
+<area shape="poly" id="edge18_Node000001_Node000007" title=" " alt="" coords="689,247,641,263,596,269,550,271,460,266,380,253,319,238,320,233,381,247,461,260,550,266,595,264,639,258,687,242"/>
+<area shape="rect" id="Node000008" href="$libdict__c_8c.html#a1f1c78555b6581ac137c5f7554764d4a" title="Internal Function to delete an element in a struct dict." alt="" coords="541,88,640,113"/>
+<area shape="poly" id="edge9_Node000001_Node000008" title=" " alt="" coords="704,204,674,170,638,134,612,115,615,111,642,130,678,166,708,200"/>
+<area shape="rect" id="Node000009" href="$libdict__c_8c.html#a39d71b8cb506457484e48dab3ed449ed" title="Deletes an element in a struct dict." alt="" coords="415,138,482,164"/>
+<area shape="poly" id="edge14_Node000001_Node000009" title=" " alt="" coords="695,208,668,192,639,179,598,167,555,160,482,154,482,149,556,155,599,162,641,174,671,187,697,203"/>
+<area shape="rect" id="Node000010" href="$libdict__c_8c.html#a261d9d0857636473fa1dfcd2528eac59" title="Helper function to manage a dict." alt="" coords="553,365,628,390"/>
+<area shape="poly" id="edge17_Node000001_Node000010" title=" " alt="" coords="713,251,683,298,642,348,616,367,613,363,638,344,679,295,708,248"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="613,202,606,194,591,192,577,194,570,198,568,204,572,212,568,214,563,204,566,195,575,189,591,186,609,190,617,198"/>
+<area shape="poly" id="edge3_Node000002_Node000003" title=" " alt="" coords="534,228,493,228,493,223,534,223"/>
+<area shape="poly" id="edge4_Node000003_Node000003" title=" " alt="" coords="473,202,466,194,449,192,434,194,427,198,425,204,429,212,425,214,420,205,422,195,432,189,449,186,468,190,477,198"/>
+<area shape="rect" id="Node000004" href="$dict__c_8c.html#ac7cdc181962e7f62b7b8d3d993d426ea" title=" " alt="" coords="211,138,356,164"/>
+<area shape="poly" id="edge5_Node000003_Node000004" title=" " alt="" coords="406,209,311,166,313,161,408,205"/>
+<area shape="poly" id="edge8_Node000003_Node000007" title=" " alt="" coords="390,228,320,228,320,223,390,223"/>
+<area shape="poly" id="edge6_Node000004_Node000005" title=" " alt="" coords="239,135,162,103,164,98,241,131"/>
+<area shape="rect" id="Node000006" href="$dict__c_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,76,56,101"/>
+<area shape="poly" id="edge7_Node000005_Node000006" title=" " alt="" coords="90,91,56,91,56,86,90,86"/>
+<area shape="poly" id="edge10_Node000008_Node000008" title=" " alt="" coords="613,76,606,69,591,66,577,68,570,73,568,79,572,86,568,89,563,79,566,70,575,63,591,61,609,64,617,72"/>
+<area shape="poly" id="edge11_Node000008_Node000009" title=" " alt="" coords="542,120,483,142,481,137,540,115"/>
+<area shape="poly" id="edge12_Node000009_Node000004" title=" " alt="" coords="402,154,356,154,356,148,402,148"/>
+<area shape="poly" id="edge13_Node000009_Node000007" title=" " alt="" coords="408,172,313,215,311,210,406,167"/>
+</map>

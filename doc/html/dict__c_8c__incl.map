@@ -1,11 +1,19 @@
 <map id="dict_c.c" name="dict_c.c">
-<area shape="rect" id="node1" title=" " alt="" coords="243,5,313,32"/>
-<area shape="rect" id="node2" href="$libdict__c_8c.html" title=" " alt="" coords="185,80,272,107"/>
-<area shape="rect" id="node9" title=" " alt="" coords="297,80,361,107"/>
-<area shape="rect" id="node3" href="$libdict__c_8h.html" title=" " alt="" coords="185,155,273,181"/>
-<area shape="rect" id="node4" title=" " alt="" coords="5,229,76,256"/>
-<area shape="rect" id="node5" title=" " alt="" coords="101,229,167,256"/>
-<area shape="rect" id="node6" title=" " alt="" coords="191,229,266,256"/>
-<area shape="rect" id="node7" title=" " alt="" coords="290,229,373,256"/>
-<area shape="rect" id="node8" title=" " alt="" coords="397,229,468,256"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="226,5,294,31"/>
+<area shape="rect" id="Node000002" href="$libdict__c_8c.html" title=" " alt="" coords="173,79,254,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="255,32,231,69,226,66,250,30"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="279,79,337,104"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="270,30,295,66,290,69,266,33"/>
+<area shape="rect" id="Node000003" href="$libdict__c_8h.html" title=" " alt="" coords="173,152,254,177"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="216,104,216,138,211,138,211,104"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="5,225,69,251"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="186,180,80,222,78,218,184,175"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="93,225,155,251"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="201,179,151,219,148,214,197,175"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="179,225,248,251"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="216,178,216,212,211,212,211,178"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="272,225,347,251"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="230,175,284,215,281,219,227,180"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="371,225,437,251"/>
+<area shape="poly" id="edge7_Node000003_Node000008" title=" " alt="" coords="245,175,361,218,359,223,243,180"/>
 </map>

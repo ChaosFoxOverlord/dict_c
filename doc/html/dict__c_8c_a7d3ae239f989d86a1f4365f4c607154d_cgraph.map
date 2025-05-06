@@ -1,4 +1,5 @@
 <map id="getrandtype" name="getrandtype">
-<area shape="rect" id="node1" title=" " alt="" coords="5,5,107,32"/>
-<area shape="rect" id="node2" href="$dict__c_8c.html#a4d9a5c5af5a573814b0bd0cf170d8d82" title=" " alt="" coords="155,5,287,32"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,96,31"/>
+<area shape="rect" id="Node000002" href="$dict__c_8c.html#a4d9a5c5af5a573814b0bd0cf170d8d82" title=" " alt="" coords="144,5,263,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="96,15,130,15,130,21,96,21"/>
 </map>

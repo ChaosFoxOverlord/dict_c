@@ -1,0 +1,17 @@
+<map id="json_dict" name="json_dict">
+<area shape="rect" id="Node000001" title="Helper function to manage a dict." alt="" coords="5,55,80,80"/>
+<area shape="rect" id="Node000002" href="$libdict__c_8c.html#a72174eec72aba6a82641de0a4859a4da" title="Emptys a dictionary and frees it." alt="" coords="129,29,201,55"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="79,57,116,50,117,55,81,62"/>
+<area shape="rect" id="Node000006" href="$libdict__c_8c.html#ae0198b3ecbde36bf8ae3a1e34830278b" title="Initializes a new dictionary of type struct dict." alt="" coords="128,79,203,104"/>
+<area shape="poly" id="edge9_Node000001_Node000006" title=" " alt="" coords="81,72,115,79,114,84,79,77"/>
+<area shape="poly" id="edge8_Node000002_Node000002" title=" " alt="" coords="144,30,140,21,142,11,151,5,165,3,182,6,190,14,186,18,180,11,165,8,153,10,146,14,145,20,149,28"/>
+<area shape="rect" id="Node000003" href="$libdict__c_8c.html#aa3b187986f610dbfe0e7138ecaf5b834" title="Emptys a dictionary, but does not free it." alt="" coords="251,29,337,55"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="201,47,237,48,237,54,201,53"/>
+<area shape="poly" id="edge7_Node000003_Node000002" title=" " alt="" coords="250,36,215,36,215,31,250,31"/>
+<area shape="rect" id="Node000004" href="$libdict__c_8c.html#abb8df193fba807b68ce0039440c126e3" title="Emptys an array and frees it." alt="" coords="385,29,465,55"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="337,39,372,39,372,45,337,45"/>
+<area shape="rect" id="Node000005" href="$libdict__c_8c.html#a8dc3c0ff7c9b7e91191f9e473ea16d95" title="Emptys an array, but does not free it." alt="" coords="513,29,608,55"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="465,48,500,48,500,54,465,53"/>
+<area shape="poly" id="edge6_Node000005_Node000002" title=" " alt="" coords="522,57,466,70,358,80,310,78,250,70,213,61,214,56,251,65,311,72,358,75,465,65,521,52"/>
+<area shape="poly" id="edge5_Node000005_Node000004" title=" " alt="" coords="513,36,479,36,479,31,513,31"/>
+</map>

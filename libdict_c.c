@@ -15,22 +15,39 @@
  *  You should have received a copy of the GNU General Public License
  *  along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
+// Gratefully adopted and modified for MADCAT by BSI 2019-2020
 
 #include "libdict_c.h"
+
+//Constant globals
+
+/**
+ * \brief Format strings for output of hexadecimal numbers as string
+ *
+ *     Defines the format strings for use with the defined constants HEX_FORMAT_*
+ *
+ */
+const char* const __json_hex_format[] = {
+    "\"0x%lx\"",   //HEX_FORMAT_STD
+    "\"0x%02lx\"", //HEX_FORMAT_02
+    "\"0x%04lx\"", //HEX_FORMAT_04
+    "\"0x%05lx\"", //HEX_FORMAT_05
+    "\"0x%08lx\"" //HEX_FORMAT_08
+};
 
 //Function Definitions
 
 char* json_typetostr(int json_type) {
     switch(json_type) {
-        case JSON_EMPTY: return JSON_EMPTY_AS_STR; break;
-        case JSON_NULL: return JSON_NULL_AS_STR; break;
-        case JSON_BOOL: return JSON_BOOL_AS_STR; break;
-        case JSON_HEX: return JSON_HEX_AS_STR; break;
-        case JSON_INT: return JSON_INT_AS_STR; break;
-        case JSON_FLOAT: return JSON_FLOAT_AS_STR; break;
-        case JSON_STR: return JSON_STR_AS_STR; break;
-        case JSON_ARRAY: return JSON_ARRAY_AS_STR; break;
-        case JSON_OBJ: return  JSON_OBJ_AS_STR; break;
+        case JSON_EMPTY: return JSON_EMPTY_AS_HRSTR; break;
+        case JSON_NULL: return JSON_NULL_AS_HRSTR; break;
+        case JSON_BOOL: return JSON_BOOL_AS_HRSTR; break;
+        case JSON_HEX: return JSON_HEX_AS_HRSTR; break;
+        case JSON_INT: return JSON_INT_AS_HRSTR; break;
+        case JSON_FLOAT: return JSON_FLOAT_AS_HRSTR; break;
+        case JSON_STR: return JSON_STR_AS_HRSTR; break;
+        case JSON_ARRAY: return JSON_ARRAY_AS_HRSTR; break;
+        case JSON_OBJ: return  JSON_OBJ_AS_HRSTR; break;
         default: break;
     }
     return "JSON_UNKNOWN";
@@ -65,6 +82,7 @@ void dict_printelement(FILE* fp, struct dict* dict) {
                 case HEX_FORMAT_STD:
                 case HEX_FORMAT_02:
                 case HEX_FORMAT_04:
+                case HEX_FORMAT_05:
                 case HEX_FORMAT_08:
                     fprintf(fp, __json_hex_format[dict->value.hex.format], dict->value.hex.number); break;
                     break;
@@ -102,6 +120,7 @@ void array_printelement(FILE* fp, struct array* array) {
                 case HEX_FORMAT_STD:
                 case HEX_FORMAT_02:
                 case HEX_FORMAT_04:
+                case HEX_FORMAT_05:
                 case HEX_FORMAT_08:
                     fprintf(fp, __json_hex_format[array->value.hex.format], array->value.hex.number); break;
                     break;
@@ -123,15 +142,11 @@ void array_printelement(FILE* fp, struct array* array) {
 }
 
 struct dict* dict_new(){
-    struct dict* dict = malloc(sizeof(struct dict));
-    memset(dict, 0, sizeof(struct dict)); //sets dict->type = JSON_EMPTY and all other vars to 0;
-    return dict;
+    return (struct dict*)calloc(1, sizeof(struct dict)); //sets dict->type = JSON_EMPTY and all other vars to 0;
 }
 
 struct array* array_new(){
-    struct array* array = malloc(sizeof(struct array));
-    memset(array, 0, sizeof(struct array)); //sets array->type = JSON_EMPTY and all other vars to 0;
-    return array;
+    return (struct array *)calloc(1,sizeof(struct array)); //sets array->type = JSON_EMPTY and all other vars to 0;
 }
 
 struct array* array_add(struct array* array, __uint8_t type, union json_type value) {
@@ -168,7 +183,6 @@ struct array* array_add(struct array* array, __uint8_t type, union json_type val
 }
 
 struct dict* dict_update(struct dict* dict, __uint8_t type, union json_type value, unsigned int path_len, ...) {
-    //fprintf(stderr, "dict_update( dict = %s, type = %s, value = %s, path_len = %d, ...)\n", dict->key, json_typetostr(type), value.object ? "true" : "false", path_len);
     if(path_len < 1 || dict == 0) return NULL;
     va_list valist;
     char* next_key = 0;
@@ -298,6 +312,7 @@ void dict_dump(FILE* fp, struct dict* dict) {
     return;
 }
 
+//unterschied zu dict_dump Wer kümmert sich hier um das free
 char* dict_dumpstr(struct dict* dict){
     char *buf = 0;
     size_t len = 0;
@@ -321,10 +336,10 @@ void __dict_print(FILE* fp, struct dict* dict) {
     //dict_printelement(stderr, dict);
 
     if(dict->next == dict || dict->prev == dict || (dict->type == JSON_OBJ && dict->value.object == dict) ) {
-            fprintf(stderr, "ERROR: Loop in dict %p\n", dict);
-            dict_printelement(stderr,dict);
-            fprintf(stderr, "Aborting... %p\n", dict);
-            abort();
+        fprintf(stderr, "ERROR: Loop in dict %p\n", dict);
+        dict_printelement(stderr,dict);
+        fprintf(stderr, "Aborting... %p\n", dict);
+        abort();
     }
 
     if(dict->type != JSON_EMPTY) {
@@ -338,6 +353,7 @@ void __dict_print(FILE* fp, struct dict* dict) {
                 case HEX_FORMAT_STD:
                 case HEX_FORMAT_02:
                 case HEX_FORMAT_04:
+                case HEX_FORMAT_05:
                 case HEX_FORMAT_08:
                     fprintf(fp, __json_hex_format[dict->value.hex.format], dict->value.hex.number); break;
                     break;
@@ -369,6 +385,7 @@ void array_dump(FILE* fp, struct array* array) {
     return;
 }
 
+//unterschied zu dict_dump Wer kümmert sich hier um das free
 char* array_dumpstr(struct array* array){
     char *buf = 0;
     size_t len = 0;
@@ -397,6 +414,7 @@ void __array_print(FILE* fp, struct array* array) {
                 case HEX_FORMAT_STD:
                 case HEX_FORMAT_02:
                 case HEX_FORMAT_04:
+                case HEX_FORMAT_05:
                 case HEX_FORMAT_08:
                     fprintf(fp, __json_hex_format[array->value.hex.format], array->value.hex.number); break;
                     break;
@@ -511,8 +529,9 @@ void array_free(struct array* array){
     return;
 }
 
-struct dict* __dict_delrec(struct dict* dict, int path_len, char* next_key, va_list keys) {
-    if(dict == 0 || dict->key == 0) return NULL;
+unsigned int __dict_delrec(struct dict* dict, struct dict* first_dict, int path_len, char* next_key, va_list keys) {
+    int retval = DICT_DELREC_NOT_FOUND;   // == NULL
+    if(dict == 0 || dict->key == 0) return retval;
     
     //fprintf(stderr, "__dict_delrec: path_len %d next_key: %s\n", path_len, next_key);
 
@@ -552,16 +571,23 @@ struct dict* __dict_delrec(struct dict* dict, int path_len, char* next_key, va_l
         if(dict->next) {
             dict->next->prev = dict->prev;
         }
+        
+        if(dict == first_dict) { //if first element in dict has been deleted...
+            retval = DICT_DELREC_FIRST_DELETED; //...return value is 1
+        } else {
+            retval = DICT_DELREC_OTHER_THEN_FIRST_DELETED; //...else it is 2
+        }
+
         //fprintf(stderr, "next->prev: %s prev->next: %s\n", dict->next->prev->key, dict->prev->next->key);
         free(dict->key);
         free(dict);
-        return dict;
+        return retval;
     } else {
         if(dict->type == JSON_OBJ && found) {
             next_key = va_arg(keys, char *);
-            return __dict_delrec(dict->value.object, path_len - 1, next_key, keys);
+            return __dict_delrec(dict->value.object, first_dict, path_len - 1, next_key, keys);
         } else {
-            return __dict_delrec(dict->next, path_len, next_key, keys);
+            return __dict_delrec(dict->next, first_dict, path_len, next_key, keys);
         }
     }
 }
@@ -569,15 +595,15 @@ struct dict* __dict_delrec(struct dict* dict, int path_len, char* next_key, va_l
 bool dict_del(struct dict** dict_ptr, int path_len, ...) {
     if(dict_ptr == 0 || *dict_ptr == 0) return false;
     //fprintf(stderr, "************** dict_del %s\n", (*dict_ptr)->key ? (*dict_ptr)->key : "(nil)");
-    struct dict* dict_delrec = 0;
+    unsigned int dict_delrec = 0;
     struct dict* next_dict = (*dict_ptr)->next;
     va_list keys;
     va_start(keys, path_len);
     char* next_key = va_arg(keys, char *);
-    dict_delrec = __dict_delrec(*dict_ptr, path_len, next_key, keys);
+    dict_delrec = __dict_delrec(*dict_ptr, *dict_ptr, path_len, next_key, keys);
     va_end(keys);
-    
-    if(dict_delrec == *dict_ptr) { //if first element in dict has been deleted...
+
+    if(dict_delrec == DICT_DELREC_FIRST_DELETED) { //if first element in dict has been deleted...
         if(next_dict == NULL) { //...and it has been also the last element in dict...
             //fprintf(stderr, "Last element deleted!\n");
             *dict_ptr = dict_new();  //...create new dict with JSON_EMPTY-type. Contents of "old" dict were allready freed here by __dict_delrec(...)
@@ -590,7 +616,7 @@ bool dict_del(struct dict** dict_ptr, int path_len, ...) {
             *dict_ptr = next_dict;
         }
     }
-    
+ 
     return dict_delrec ? true : false;
 }
 
@@ -675,130 +701,4 @@ bool dict_append(struct dict* source_dict, struct dict* dest_dict) {
     }
 
     return dict_append(source_dict, dest_dict->next);
-}
-
-void demo(){
-    struct dict* dict = dict_new();
-    struct dict* search_dict = NULL;
-    struct array* array = NULL;
-    union json_type value;
-    char* output = 0;
-
-
-    //test update
-    
-    value.string = "test";
-    dict_update(dict, JSON_STR, value, 3, "0", "2", "1");
-    dict_dump(stderr, dict); fprintf(stderr,"\n");
-  
-
-    value.string = "2";
-    dict_update(dict, JSON_STR, value, 1, "2");
-    dict_dump(stderr, dict); fprintf(stderr,"\n");
-    
-    dict_del(&dict, 1, "2");
-    dict_dump(stderr, dict); fprintf(stderr,"\n");
-
-    value.integer = 5;
-    dict_update(dict, JSON_INT, value, 1, "Lamb");
-    fprintf(stderr, "%s\n", output = dict_dumpstr(dict)); free(output);
-
-    value.string = "Hurz";
-    dict_update(dict, JSON_STR, value, 1, "Wolf");
-
-    fprintf(stderr, "%s\n", output = dict_dumpstr(dict)); free(output);
-
-    fprintf(stderr, "%s\n", output = dict_dumpstr(dict)); free(output);
-    fprintf(stderr, "\n");
-
-    value.object = dict_new();
-    dict_update(dict, JSON_OBJ, value, 1, "INNER");
-    search_dict = __dict_plainsearch(dict, "INNER", &search_dict);
-
-    value.string = "Hurz";
-    dict_update(dict, JSON_STR, value, 1, "Tiger");
-
-    fprintf(stderr, "%s\n", output = dict_dumpstr(dict)); free(output);
-
-    value.boolean = false;
-    dict_update(dict, JSON_BOOL, value, 2, "INNER", "Cougar");
-
-    fprintf(stderr, "%s\n", output = dict_dumpstr(dict)); free(output);
-
-
-    dict_update(dict, JSON_NULL, value, 2, "INNER", "Rabbit");
-    value.boolean = true;
-    dict_update(dict, JSON_BOOL, value, 2, "INNER", "Fox");
-  
-    value.array = array_new();
-    dict_update(dict, JSON_ARRAY, value, 2, "INNER", "ARRAY");
-
-    fprintf(stderr, "%s\n", output = dict_dumpstr(dict)); free(output);
-    dict_update(dict, JSON_NULL, value, 5, "0", "1", "2", "3", "No");
-    dict_update(dict, JSON_NULL, value, 5, "INNER", "1", "2", "3", "five");
-    
-    value.hex.number = 10; value.hex.format = HEX_FORMAT_04;
-    array_add(dict_get(dict, 2, "INNER", "ARRAY")->value.array, JSON_HEX, value);
-    value.string = "asdfjklo";
-    array_add(dict_get(dict, 2, "INNER", "ARRAY")->value.array, JSON_STR, value);
-    value.object = dict_new();
-    array_add(dict_get(dict, 2, "INNER", "ARRAY")->value.array, JSON_OBJ, value);
-
-    value.hex.number = 0xDEADBEEF; value.hex.format = HEX_FORMAT_STD;
-    dict_update(array_get(dict_get(dict, 2, "INNER", "ARRAY")->value.array, 2)->value.object, JSON_HEX, value, 1, "DEADBEEF");
-
-    array_dump(stderr, array_get(dict_get(dict, 2, "INNER", "ARRAY")->value.array, 2)); fprintf(stderr, "\n");
-
-    fprintf(stderr, "%s\n", output = dict_dumpstr(dict)); free(output);
-
-    search_dict = dict_get(dict, 2, "INNER", "ARRAY");
-    fprintf(stderr, "Type %d\n", search_dict ? search_dict->type : -1);
-
-    fprintf(stderr, "%s\n", output = dict_dumpstr(dict)); free(output);
-    fprintf(stderr, "\n");
-
-    search_dict = dict_get(dict, 1, "Lamb");
-    fprintf(stderr, "Type %d\n", search_dict ? search_dict->type : -1);
-
-    value.boolean = false;
-    dict_update(dict, JSON_BOOL, value, 2, "INNER", "Carlin");
-
-
-    //Array operations
-    array = dict_get(dict, 2, "INNER", "ARRAY")->value.array;
-    fprintf(stderr, "%s\n", output = array_dumpstr(array)); free(output);
-    array_del(array, 2);
-    fprintf(stderr, "%s\n", output = array_dumpstr(array)); free(output);
-    array_del(array, 1);
-    fprintf(stderr, "%s\n", output = array_dumpstr(array)); free(output);
-    array_del(array, 0);
-    fprintf(stderr, "%s\n", output = array_dumpstr(array)); free(output);
-    fprintf(stderr, "\n");
-
-
-    fprintf(stderr, "%s\n", output = dict_dumpstr(dict)); free(output);
-
-    dict_del(&dict, 2, "INNER", "Carlin");
-    dict_del(&dict, 2, "INNER", "Rabbit");
-    dict_del(&dict, 2, "INNER", "Fox");
-
-    value.boolean = true;
-    dict_update(dict, JSON_BOOL, value, 2, "INNER", "Bear");
-    
-    fprintf(stderr, "%s\n", output = dict_dumpstr(dict)); free(output);
-
-    //delete dict contents
-
-    fprintf(stderr, "RETURN: %d\n", dict_del(&dict, 2, "INNER", "Cougar"));
-    fprintf(stderr, "RETURN: %d\n", dict_del(&dict, 1, "Wolf"));
-
-    fprintf(stderr, "%s\n", output = dict_dumpstr(dict)); free(output);
-
-    //dict_update existing
-    value.floating = 3.14;
-    dict_update(dict, JSON_FLOAT, value, 2, "INNER", "ARRAY"); 
-
-    fprintf(stderr, "%s\n", output = dict_dumpstr(dict)); free(output);
-    dict_free(dict);
-    return;
 }

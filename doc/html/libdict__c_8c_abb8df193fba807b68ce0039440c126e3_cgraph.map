@@ -1,6 +1,13 @@
 <map id="array_free" name="array_free">
-<area shape="rect" id="node1" title="Emptys an array and frees it." alt="" coords="5,29,95,56"/>
-<area shape="rect" id="node2" href="$libdict__c_8c.html#ae6cc9c6a53f9b18c1a1141abced7514d" title="Emptys an array, but does not free it." alt="" coords="143,29,248,56"/>
-<area shape="rect" id="node3" href="$libdict__c_8c.html#a72174eec72aba6a82641de0a4859a4da" title="Emptys a dictionary and frees it." alt="" coords="296,29,375,56"/>
-<area shape="rect" id="node4" href="$libdict__c_8c.html#aa3b187986f610dbfe0e7138ecaf5b834" title="Emptys a dictionary, but does not free it." alt="" coords="423,29,517,56"/>
+<area shape="rect" id="Node000001" title="Emptys an array and frees it." alt="" coords="5,29,85,55"/>
+<area shape="rect" id="Node000002" href="$libdict__c_8c.html#a8dc3c0ff7c9b7e91191f9e473ea16d95" title="Emptys an array, but does not free it." alt="" coords="133,29,228,55"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="85,48,120,48,120,54,85,53"/>
+<area shape="poly" id="edge2_Node000002_Node000001" title=" " alt="" coords="133,36,99,36,99,31,133,31"/>
+<area shape="rect" id="Node000003" href="$libdict__c_8c.html#a72174eec72aba6a82641de0a4859a4da" title="Emptys a dictionary and frees it." alt="" coords="276,29,348,55"/>
+<area shape="poly" id="edge3_Node000002_Node000003" title=" " alt="" coords="228,39,262,39,262,45,228,45"/>
+<area shape="poly" id="edge7_Node000003_Node000003" title=" " alt="" coords="290,30,286,21,288,11,297,5,312,3,329,6,337,14,333,18,327,11,312,8,299,10,293,14,291,20,295,28"/>
+<area shape="rect" id="Node000004" href="$libdict__c_8c.html#aa3b187986f610dbfe0e7138ecaf5b834" title="Emptys a dictionary, but does not free it." alt="" coords="396,29,483,55"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="348,47,383,48,382,54,348,53"/>
+<area shape="poly" id="edge5_Node000004_Node000001" title=" " alt="" coords="402,57,348,70,288,77,241,80,193,78,133,70,94,61,95,56,134,65,194,72,241,75,288,72,348,65,401,52"/>
+<area shape="poly" id="edge6_Node000004_Node000003" title=" " alt="" coords="396,36,361,36,361,31,396,31"/>
 </map>

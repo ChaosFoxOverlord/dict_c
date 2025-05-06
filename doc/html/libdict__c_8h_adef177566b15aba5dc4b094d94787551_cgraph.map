@@ -1,9 +1,18 @@
 <map id="__array_print" name="__array_print">
-<area shape="rect" id="node1" title="Internal function to recursivly print an array structure." alt="" coords="5,57,112,84"/>
-<area shape="rect" id="node2" href="$libdict__c_8c.html#adef177566b15aba5dc4b094d94787551" title="Internal function to recursivly print an array structure." alt="" coords="160,57,267,84"/>
-<area shape="rect" id="node3" href="$libdict__c_8c.html#a5e98bb8536384f22972a8e77b0ecee1d" title="Prints an array recursivly as JSON." alt="" coords="617,45,717,72"/>
-<area shape="rect" id="node4" href="$libdict__c_8c.html#ad37a3c20b8a339bf0f802d72293aaf34" title="Prints a dictonary recursivly as JSON." alt="" coords="315,127,405,153"/>
-<area shape="rect" id="node5" href="$libdict__c_8c.html#a50040fb6b2829de2eaf2d9f682990ce4" title="Internal function to recursivly print a dict structure." alt="" coords="453,132,551,159"/>
-<area shape="rect" id="node6" href="$libdict__c_8c.html#a3af1dca169193e36f9c68ebe09d07576" title="Print one elment of type struct dict." alt="" coords="599,132,736,159"/>
-<area shape="rect" id="node7" href="$libdict__c_8c.html#ab03c38de6344768b13bc1f2648cc5ad2" title="Converts type defintions into strings." alt="" coords="784,132,899,159"/>
+<area shape="rect" id="Node000001" title="Internal function to recursivly dump an array structure as JSON to a string." alt="" coords="5,29,103,55"/>
+<area shape="poly" id="edge1_Node000001_Node000001" title=" " alt="" coords="31,30,26,21,28,11,38,5,54,3,73,6,81,14,77,18,70,11,54,8,40,10,33,15,31,20,35,28"/>
+<area shape="rect" id="Node000002" href="$libdict__c_8c.html#a5e98bb8536384f22972a8e77b0ecee1d" title="Prints an array recursivly as JSON." alt="" coords="434,29,525,55"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="103,45,259,48,420,46,420,51,259,54,103,51"/>
+<area shape="rect" id="Node000003" href="$libdict__c_8c.html#ad37a3c20b8a339bf0f802d72293aaf34" title="Prints a dictonary recursivly as JSON." alt="" coords="151,116,233,141"/>
+<area shape="poly" id="edge4_Node000001_Node000003" title=" " alt="" coords="77,53,161,106,158,111,74,57"/>
+<area shape="poly" id="edge3_Node000002_Node000001" title=" " alt="" coords="434,39,279,36,117,38,117,33,279,30,434,34"/>
+<area shape="rect" id="Node000004" href="$libdict__c_8c.html#a50040fb6b2829de2eaf2d9f682990ce4" title="Internal function to recursivly print a dict structure." alt="" coords="281,116,371,141"/>
+<area shape="poly" id="edge5_Node000003_Node000004" title=" " alt="" coords="233,134,267,135,267,140,233,140"/>
+<area shape="poly" id="edge7_Node000004_Node000002" title=" " alt="" coords="348,114,443,59,445,64,351,118"/>
+<area shape="poly" id="edge8_Node000004_Node000003" title=" " alt="" coords="281,123,247,122,247,117,281,117"/>
+<area shape="poly" id="edge6_Node000004_Node000004" title=" " alt="" coords="303,117,298,108,301,98,310,92,326,89,344,93,352,101,349,105,342,97,326,95,312,97,305,101,304,107,308,115"/>
+<area shape="rect" id="Node000005" href="$libdict__c_8c.html#a3af1dca169193e36f9c68ebe09d07576" title="Print one elment of type struct dict." alt="" coords="419,116,540,141"/>
+<area shape="poly" id="edge9_Node000004_Node000005" title=" " alt="" coords="371,126,405,126,405,131,371,131"/>
+<area shape="rect" id="Node000006" href="$libdict__c_8c.html#a0cfca3fa77f7a3c0dc6f79843dd2333b" title="Converts type defintions into strings." alt="" coords="588,116,692,141"/>
+<area shape="poly" id="edge10_Node000005_Node000006" title=" " alt="" coords="540,126,574,126,574,131,540,131"/>
 </map>

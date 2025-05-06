@@ -1,8 +1,11 @@
 <map id="dict_del" name="dict_del">
-<area shape="rect" id="node1" title="Deletes an element in a struct dict." alt="" coords="425,56,499,83"/>
-<area shape="rect" id="node2" href="$libdict__c_8h.html#ac474183ee901f1980a9963e75699b6a1" title="Demonstration of how to use the library." alt="" coords="269,5,327,32"/>
-<area shape="rect" id="node3" href="$dict__c_8c.html#aee3dec796e642def84bf4dcda98772ef" title=" " alt="" coords="219,56,377,83"/>
-<area shape="rect" id="node6" href="$dict__c_8c.html#ac3c43498837f535b458189c48bbbd91a" title=" " alt="" coords="259,107,337,133"/>
-<area shape="rect" id="node4" href="$dict__c_8c.html#a14dad1dab59bd1a6d736cdbe147a188d" title=" " alt="" coords="108,56,171,83"/>
-<area shape="rect" id="node5" href="$dict__c_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,56,60,83"/>
+<area shape="rect" id="Node000001" title="Deletes an element in a struct dict." alt="" coords="404,31,471,56"/>
+<area shape="rect" id="Node000002" href="$dict__c_8c.html#ac7cdc181962e7f62b7b8d3d993d426ea" title=" " alt="" coords="211,5,356,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="390,38,356,33,357,27,391,33"/>
+<area shape="rect" id="Node000005" href="$dict__c_8c.html#ac3c43498837f535b458189c48bbbd91a" title=" " alt="" coords="247,55,319,80"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="391,53,320,64,319,59,390,48"/>
+<area shape="rect" id="Node000003" href="$dict__c_8c.html#a14dad1dab59bd1a6d736cdbe147a188d" title=" " alt="" coords="104,5,163,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="197,21,163,21,163,15,197,15"/>
+<area shape="rect" id="Node000004" href="$dict__c_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,5,56,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="90,21,56,21,56,15,90,15"/>
 </map>

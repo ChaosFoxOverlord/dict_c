@@ -1,5 +1,11 @@
 <map id="json_type" name="json_type">
-<area shape="rect" id="node1" title="Representation of JSON&#45;Types." alt="" coords="60,5,145,32"/>
-<area shape="rect" id="node2" href="$structarray.html" title="Element of an array as linked list." alt="" coords="5,96,61,123"/>
-<area shape="rect" id="node3" href="$structdict.html" title="Element of a dictonary as double linked list." alt="" coords="147,96,194,123"/>
+<area shape="rect" id="Node000001" title="Representation of JSON&#45;Types." alt="" coords="87,5,166,31"/>
+<area shape="rect" id="Node000002" href="$structarray.html" title="Element of an array as linked list." alt="" coords="5,95,56,121"/>
+<area shape="poly" id="edge3_Node000002_Node000001" title=" " alt="" coords="75,29,51,39,33,56,27,75,30,95,25,96,22,75,28,53,48,35,73,24"/>
+<area shape="rect" id="Node000003" href="$structdict.html" title="Element of a dictonary as double linked list." alt="" coords="171,95,213,121"/>
+<area shape="poly" id="edge6_Node000003_Node000001" title=" " alt="" coords="141,42,157,68,181,93,177,97,153,71,136,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="52,84,112,29,116,33,56,88"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="71,98,79,101,83,108,74,117,56,119,56,114,72,113,77,108,75,105,69,103"/>
+<area shape="poly" id="edge4_Node000001_Node000003" title=" " alt="" coords="197,82,198,68,194,56,181,43,165,33,167,28,185,38,198,53,203,67,202,82"/>
+<area shape="poly" id="edge5_Node000003_Node000003" title=" " alt="" coords="228,98,236,101,240,108,231,118,214,119,213,113,229,113,235,108,233,105,226,103"/>
 </map>

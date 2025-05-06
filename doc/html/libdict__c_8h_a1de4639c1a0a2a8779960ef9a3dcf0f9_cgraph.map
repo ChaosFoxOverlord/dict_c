@@ -1,0 +1,6 @@
+<map id="__dict_add" name="__dict_add">
+<area shape="rect" id="Node000001" title="Internal function to add a value to a dictonary." alt="" coords="5,29,91,55"/>
+<area shape="poly" id="edge1_Node000001_Node000001" title=" " alt="" coords="26,30,21,21,24,11,33,5,48,3,66,6,74,14,70,18,63,11,48,8,35,10,28,14,27,20,31,28"/>
+<area shape="rect" id="Node000002" href="$libdict__c_8c.html#ae0198b3ecbde36bf8ae3a1e34830278b" title="Initializes a new dictionary of type struct dict." alt="" coords="139,29,213,55"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="91,39,125,39,125,45,91,45"/>
+</map>

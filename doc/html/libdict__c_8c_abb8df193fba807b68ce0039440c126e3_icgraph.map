@@ -1,17 +1,42 @@
 <map id="array_free" name="array_free">
-<area shape="rect" id="node1" title="Emptys an array and frees it." alt="" coords="1287,151,1376,177"/>
-<area shape="rect" id="node2" href="$libdict__c_8h.html#a5afcbbf2ec1aef0f3c9c5366e7de9cdc" title="Internal Function to delete an element in a struct dict." alt="" coords="572,117,679,144"/>
-<area shape="rect" id="node5" href="$dict__c_8c.html#aee3dec796e642def84bf4dcda98772ef" title=" " alt="" coords="219,144,377,171"/>
-<area shape="rect" id="node9" href="$libdict__c_8h.html#a5cc1b236df4c3e4552f652a6e46b51e1" title="Deletes an element from an array." alt="" coords="584,472,667,499"/>
-<area shape="rect" id="node10" href="$libdict__c_8h.html#ae6cc9c6a53f9b18c1a1141abced7514d" title="Emptys an array, but does not free it." alt="" coords="1133,151,1239,177"/>
-<area shape="rect" id="node12" href="$libdict__c_8h.html#aa1a1dcf7222bd87755e10bd75b5175c2" title="Emptys a dictionary, but does not free it." alt="" coords="853,201,948,228"/>
-<area shape="rect" id="node3" href="$libdict__c_8h.html#a39d71b8cb506457484e48dab3ed449ed" title="Deletes an element in a struct dict." alt="" coords="438,169,511,196"/>
-<area shape="rect" id="node4" href="$libdict__c_8h.html#ac474183ee901f1980a9963e75699b6a1" title="Demonstration of how to use the library." alt="" coords="269,345,327,372"/>
-<area shape="rect" id="node8" href="$dict__c_8c.html#ac3c43498837f535b458189c48bbbd91a" title=" " alt="" coords="259,256,337,283"/>
-<area shape="rect" id="node6" href="$dict__c_8c.html#a14dad1dab59bd1a6d736cdbe147a188d" title=" " alt="" coords="108,308,171,335"/>
-<area shape="rect" id="node7" href="$dict__c_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,308,60,335"/>
-<area shape="rect" id="node11" href="$libdict__c_8h.html#abb8df193fba807b68ce0039440c126e3" title="Emptys an array and frees it." alt="" coords="996,151,1085,177"/>
-<area shape="rect" id="node13" href="$libdict__c_8h.html#a72174eec72aba6a82641de0a4859a4da" title="Emptys a dictionary and frees it." alt="" coords="727,269,805,296"/>
-<area shape="rect" id="node15" href="$libdict__c_8h.html#aa7ba093cd1b24d562a4f822529d946cc" title="Updates a dictionary with a new element." alt="" coords="425,244,524,271"/>
-<area shape="rect" id="node14" href="$libdict__c_8h.html#a29796a1f7689a238011fa110e7082af9" title="Helper function to manage a dict." alt="" coords="585,320,665,347"/>
+<area shape="rect" id="Node000001" title="Emptys an array and frees it." alt="" coords="943,119,1023,144"/>
+<area shape="rect" id="Node000002" href="$libdict__c_8c.html#a1f1c78555b6581ac137c5f7554764d4a" title="Internal Function to delete an element in a struct dict." alt="" coords="541,332,640,357"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="955,155,896,195,743,277,622,334,620,329,741,272,893,190,952,150"/>
+<area shape="rect" id="Node000004" href="$dict__c_8c.html#ac7cdc181962e7f62b7b8d3d993d426ea" title=" " alt="" coords="211,308,356,333"/>
+<area shape="poly" id="edge27_Node000001_Node000004" title=" " alt="" coords="977,158,949,235,927,283,899,331,865,376,825,414,779,439,753,446,725,449,589,449,494,448,453,440,403,422,369,403,338,379,294,335,298,332,342,375,372,398,405,417,454,435,494,443,589,443,725,443,752,441,777,434,822,409,861,373,895,328,922,280,944,233,972,156"/>
+<area shape="rect" id="Node000008" href="$libdict__c_8c.html#a5cc1b236df4c3e4552f652a6e46b51e1" title="Deletes an element from an array." alt="" coords="553,55,628,80"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="929,125,628,76,629,71,929,120"/>
+<area shape="rect" id="Node000009" href="$libdict__c_8c.html#a8dc3c0ff7c9b7e91191f9e473ea16d95" title="Emptys an array, but does not free it." alt="" coords="543,5,638,31"/>
+<area shape="poly" id="edge10_Node000001_Node000009" title=" " alt="" coords="929,120,894,106,819,82,743,63,623,33,624,28,744,57,820,77,896,101,931,115"/>
+<area shape="rect" id="Node000010" href="$libdict__c_8c.html#aa3b187986f610dbfe0e7138ecaf5b834" title="Emptys a dictionary, but does not free it." alt="" coords="808,156,895,181"/>
+<area shape="poly" id="edge12_Node000001_Node000010" title=" " alt="" coords="930,149,896,159,894,154,929,144"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="613,321,606,313,591,311,577,313,570,317,568,323,572,331,568,333,563,324,566,314,575,308,591,305,609,309,617,317"/>
+<area shape="rect" id="Node000003" href="$libdict__c_8c.html#a39d71b8cb506457484e48dab3ed449ed" title="Deletes an element in a struct dict." alt="" coords="415,308,482,333"/>
+<area shape="poly" id="edge3_Node000002_Node000003" title=" " alt="" coords="527,337,482,329,483,324,528,331"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="402,323,356,323,356,318,402,318"/>
+<area shape="rect" id="Node000007" href="$dict__c_8c.html#ac3c43498837f535b458189c48bbbd91a" title=" " alt="" coords="247,207,319,232"/>
+<area shape="poly" id="edge7_Node000003_Node000007" title=" " alt="" coords="414,303,304,234,307,230,417,298"/>
+<area shape="rect" id="Node000005" href="$dict__c_8c.html#a14dad1dab59bd1a6d736cdbe147a188d" title=" " alt="" coords="104,207,163,232"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="251,302,152,234,155,230,254,298"/>
+<area shape="rect" id="Node000006" href="$dict__c_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,207,56,232"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="90,222,56,222,56,217,90,217"/>
+<area shape="poly" id="edge9_Node000008_Node000007" title=" " alt="" coords="547,88,405,152,306,209,304,204,403,148,544,83"/>
+<area shape="poly" id="edge11_Node000009_Node000001" title=" " alt="" coords="652,17,766,40,896,77,939,95,973,116,970,121,937,100,894,82,765,45,651,23"/>
+<area shape="rect" id="Node000011" href="$libdict__c_8c.html#a72174eec72aba6a82641de0a4859a4da" title="Emptys a dictionary and frees it." alt="" coords="688,156,760,181"/>
+<area shape="poly" id="edge13_Node000010_Node000011" title=" " alt="" coords="794,180,760,179,760,174,794,175"/>
+<area shape="rect" id="Node000013" href="$libdict__c_8c.html#a05673d028adb14fc9563503711ed9a9d" title="Updates a dictionary with a new element." alt="" coords="404,381,493,407"/>
+<area shape="poly" id="edge23_Node000010_Node000013" title=" " alt="" coords="836,194,804,234,760,284,704,333,674,354,641,372,604,386,565,394,494,399,493,393,564,389,602,381,639,368,671,350,701,329,756,280,800,231,831,191"/>
+<area shape="poly" id="edge14_Node000011_Node000002" title=" " alt="" coords="709,195,642,290,606,333,602,330,638,287,705,192"/>
+<area shape="poly" id="edge19_Node000011_Node000004" title=" " alt="" coords="705,194,677,222,641,247,347,311,345,305,639,242,674,218,702,190"/>
+<area shape="poly" id="edge20_Node000011_Node000005" title=" " alt="" coords="674,169,586,167,471,168,341,177,211,197,163,211,162,206,210,191,340,172,470,163,586,161,674,163"/>
+<area shape="poly" id="edge22_Node000011_Node000007" title=" " alt="" coords="675,177,320,218,319,213,674,172"/>
+<area shape="poly" id="edge15_Node000011_Node000008" title=" " alt="" coords="697,149,638,101,611,82,614,78,642,97,700,145"/>
+<area shape="poly" id="edge16_Node000011_Node000009" title=" " alt="" coords="709,145,681,95,661,68,638,44,622,33,625,29,642,40,665,65,685,92,714,143"/>
+<area shape="poly" id="edge17_Node000011_Node000010" title=" " alt="" coords="773,157,808,157,808,163,773,163"/>
+<area shape="poly" id="edge18_Node000011_Node000011" title=" " alt="" coords="745,145,739,137,724,135,711,137,705,141,703,147,707,155,702,157,698,148,700,138,709,132,724,129,741,133,749,141"/>
+<area shape="rect" id="Node000012" href="$libdict__c_8c.html#a261d9d0857636473fa1dfcd2528eac59" title="Helper function to manage a dict." alt="" coords="553,207,628,232"/>
+<area shape="poly" id="edge21_Node000011_Node000012" title=" " alt="" coords="678,189,626,209,624,204,676,184"/>
+<area shape="poly" id="edge25_Node000013_Node000004" title=" " alt="" coords="406,378,312,336,314,331,408,373"/>
+<area shape="poly" id="edge26_Node000013_Node000007" title=" " alt="" coords="424,373,295,234,299,230,428,369"/>
+<area shape="poly" id="edge24_Node000013_Node000013" title=" " alt="" coords="473,370,466,363,449,360,434,362,427,367,425,372,429,380,425,382,420,373,422,363,432,357,449,355,468,358,477,367"/>
 </map>

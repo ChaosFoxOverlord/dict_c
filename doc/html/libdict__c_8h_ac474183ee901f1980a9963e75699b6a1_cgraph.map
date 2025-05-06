@@ -1,27 +1,81 @@
 <map id="demo" name="demo">
-<area shape="rect" id="node1" title="Demonstration of how to use the library." alt="" coords="5,559,64,585"/>
-<area shape="rect" id="node2" href="$libdict__c_8c.html#adb819e34a450056c2bffd8581488cc59" title="Internal Function to get an element without descending." alt="" coords="277,29,420,56"/>
-<area shape="rect" id="node3" href="$libdict__c_8c.html#ada81cad02a043843e3b8f60962351e64" title="Adds an element to an array." alt="" coords="127,659,214,685"/>
-<area shape="rect" id="node4" href="$libdict__c_8c.html#a459a17f26c951e423806a07ada1f9a09" title="Initializes a new array of type struct array." alt="" coords="303,635,394,661"/>
-<area shape="rect" id="node5" href="$libdict__c_8c.html#a5cc1b236df4c3e4552f652a6e46b51e1" title="Deletes an element from an array." alt="" coords="129,483,212,509"/>
-<area shape="rect" id="node8" href="$libdict__c_8c.html#a72174eec72aba6a82641de0a4859a4da" title="Emptys a dictionary and frees it." alt="" coords="805,432,884,459"/>
-<area shape="rect" id="node10" href="$libdict__c_8c.html#a7c9222272e266e1bbc5d14725f241e37" title="Gets an element from an array." alt="" coords="307,584,391,611"/>
-<area shape="rect" id="node12" href="$libdict__c_8c.html#a5e98bb8536384f22972a8e77b0ecee1d" title="Prints an array recursivly as JSON." alt="" coords="121,709,221,736"/>
-<area shape="rect" id="node14" href="$libdict__c_8c.html#ad37a3c20b8a339bf0f802d72293aaf34" title="Prints a dictonary recursivly as JSON." alt="" coords="476,772,567,799"/>
-<area shape="rect" id="node18" href="$libdict__c_8c.html#a1c4e82285e2e5265bc733ad43d3f6ac3" title="Internal function to recursivly print an array structure." alt="" coords="112,760,229,787"/>
-<area shape="rect" id="node19" href="$libdict__c_8c.html#a39d71b8cb506457484e48dab3ed449ed" title="Deletes an element in a struct dict." alt="" coords="134,381,207,408"/>
-<area shape="rect" id="node21" href="$libdict__c_8c.html#a6adcde67820b6ed0035482b4840af927" title="Initializes a new dictionary of type struct dict." alt="" coords="481,256,561,283"/>
-<area shape="rect" id="node22" href="$libdict__c_8c.html#a3257c1967a6c8ba2bd904937e6ee4a8c" title="Prints a dictonary recursivly as JSON to a string." alt="" coords="468,848,575,875"/>
-<area shape="rect" id="node23" href="$libdict__c_8c.html#ab5c4334a5354859df367e1bf8a050f15" title="Function to get an element from a dictionary." alt="" coords="133,912,208,939"/>
-<area shape="rect" id="node24" href="$libdict__c_8c.html#aa7ba093cd1b24d562a4f822529d946cc" title="Updates a dictionary with a new element." alt="" coords="121,155,220,181"/>
-<area shape="rect" id="node6" href="$libdict__c_8c.html#abb8df193fba807b68ce0039440c126e3" title="Emptys an array and frees it." alt="" coords="477,457,566,484"/>
-<area shape="rect" id="node7" href="$libdict__c_8c.html#ae6cc9c6a53f9b18c1a1141abced7514d" title="Emptys an array, but does not free it." alt="" coords="623,457,728,484"/>
-<area shape="rect" id="node9" href="$libdict__c_8c.html#aa3b187986f610dbfe0e7138ecaf5b834" title="Emptys a dictionary, but does not free it." alt="" coords="971,432,1066,459"/>
-<area shape="rect" id="node11" href="$libdict__c_8c.html#a8dad6d11fa54bf85129156f410b8bdb0" title="Returns the length of an array." alt="" coords="480,608,563,635"/>
-<area shape="rect" id="node13" href="$libdict__c_8c.html#adef177566b15aba5dc4b094d94787551" title="Internal function to recursivly print an array structure." alt="" coords="295,760,402,787"/>
-<area shape="rect" id="node15" href="$libdict__c_8c.html#a50040fb6b2829de2eaf2d9f682990ce4" title="Internal function to recursivly print a dict structure." alt="" coords="627,772,724,799"/>
-<area shape="rect" id="node16" href="$libdict__c_8c.html#a3af1dca169193e36f9c68ebe09d07576" title="Print one elment of type struct dict." alt="" coords="776,772,913,799"/>
-<area shape="rect" id="node17" href="$libdict__c_8c.html#ab03c38de6344768b13bc1f2648cc5ad2" title="Converts type defintions into strings." alt="" coords="961,772,1076,799"/>
-<area shape="rect" id="node20" href="$libdict__c_8c.html#a5afcbbf2ec1aef0f3c9c5366e7de9cdc" title="Internal Function to delete an element in a struct dict." alt="" coords="295,381,402,408"/>
-<area shape="rect" id="node25" href="$libdict__c_8c.html#a168501876a8d0db7bf445a297c7f97d3" title="Internal function to add a value to a dictonary." alt="" coords="303,155,394,181"/>
+<area shape="rect" id="Node000001" title="Demonstration of how to use the library." alt="" coords="5,560,60,585"/>
+<area shape="rect" id="Node000002" href="$libdict__c_8c.html#ac5d1d31d28194661fd5452f47d083c58" title="Internal Function to get an element without descending." alt="" coords="261,29,392,55"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="32,559,36,472,47,340,57,270,70,206,86,153,106,116,136,89,172,69,210,55,247,47,248,52,211,61,174,74,139,93,110,120,91,155,75,208,62,271,53,340,41,472,37,560"/>
+<area shape="rect" id="Node000003" href="$libdict__c_8c.html#a05e4aa4737ca3f47710f76f89ebba1bc" title="Adds an element to an array." alt="" coords="121,660,200,685"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="52,584,134,649,131,654,49,588"/>
+<area shape="rect" id="Node000004" href="$libdict__c_8c.html#acd45ee7ac5de1808538e7791b58da7aa" title="Initializes a new array of type struct array." alt="" coords="285,633,368,659"/>
+<area shape="poly" id="edge33_Node000001_Node000004" title=" " alt="" coords="61,577,273,630,271,635,60,582"/>
+<area shape="rect" id="Node000005" href="$libdict__c_8c.html#a5cc1b236df4c3e4552f652a6e46b51e1" title="Deletes an element from an array." alt="" coords="123,484,198,509"/>
+<area shape="poly" id="edge6_Node000001_Node000005" title=" " alt="" coords="54,557,125,514,128,519,57,562"/>
+<area shape="rect" id="Node000008" href="$libdict__c_8c.html#a72174eec72aba6a82641de0a4859a4da" title="Emptys a dictionary and frees it." alt="" coords="753,432,825,457"/>
+<area shape="poly" id="edge44_Node000001_Node000008" title=" " alt="" coords="37,559,61,513,81,489,107,469,160,450,233,437,319,430,413,427,598,431,739,438,739,444,598,436,413,433,319,435,233,442,161,455,109,474,85,492,66,516,41,561"/>
+<area shape="rect" id="Node000010" href="$libdict__c_8c.html#aca3acfa57f3b71e0507c4f38d2700113" title="Gets an element from an array." alt="" coords="289,584,365,609"/>
+<area shape="poly" id="edge32_Node000001_Node000010" title=" " alt="" coords="60,570,130,571,214,577,276,585,275,590,213,582,129,577,60,575"/>
+<area shape="rect" id="Node000012" href="$libdict__c_8c.html#a5e98bb8536384f22972a8e77b0ecee1d" title="Prints an array recursivly as JSON." alt="" coords="115,709,206,735"/>
+<area shape="poly" id="edge19_Node000001_Node000012" title=" " alt="" coords="41,584,66,637,86,667,110,695,116,700,113,704,106,699,81,671,61,639,36,587"/>
+<area shape="rect" id="Node000014" href="$libdict__c_8c.html#ad37a3c20b8a339bf0f802d72293aaf34" title="Prints a dictonary recursivly as JSON." alt="" coords="447,772,530,797"/>
+<area shape="poly" id="edge41_Node000001_Node000014" title=" " alt="" coords="36,586,38,628,47,686,56,716,69,746,87,772,110,793,149,815,192,828,238,833,284,833,371,820,441,799,443,805,372,825,284,838,237,839,191,833,147,820,106,797,83,775,64,748,51,718,42,687,33,628,31,586"/>
+<area shape="rect" id="Node000018" href="$libdict__c_8c.html#a008fd1f8c0547a834279cc589559cff2" title="Internal function to recursivly print an array structure." alt="" coords="108,759,213,784"/>
+<area shape="poly" id="edge30_Node000001_Node000018" title=" " alt="" coords="39,585,46,616,60,659,81,704,110,744,116,749,112,753,106,748,76,706,55,660,41,618,34,586"/>
+<area shape="rect" id="Node000019" href="$libdict__c_8c.html#a39d71b8cb506457484e48dab3ed449ed" title="Deletes an element in a struct dict." alt="" coords="127,381,194,407"/>
+<area shape="poly" id="edge34_Node000001_Node000019" title=" " alt="" coords="35,559,59,497,80,459,106,424,120,412,123,416,110,428,84,462,64,499,40,561"/>
+<area shape="rect" id="Node000021" href="$libdict__c_8c.html#ae0198b3ecbde36bf8ae3a1e34830278b" title="Initializes a new dictionary of type struct dict." alt="" coords="451,256,526,281"/>
+<area shape="poly" id="edge46_Node000001_Node000021" title=" " alt="" coords="33,559,38,523,50,472,72,416,87,390,106,367,142,336,183,311,228,293,274,280,363,266,437,264,437,269,364,272,275,285,230,298,186,316,145,340,110,371,92,393,77,419,55,473,43,524,38,560"/>
+<area shape="rect" id="Node000022" href="$libdict__c_8c.html#a5a74adaae05c69a5b02d153688229a29" title="Prints a dictonary recursivly as JSON to a string." alt="" coords="440,847,537,872"/>
+<area shape="poly" id="edge42_Node000001_Node000022" title=" " alt="" coords="38,585,47,641,62,717,83,791,96,818,110,836,146,859,186,875,228,884,272,888,356,885,428,873,429,878,357,890,272,894,228,889,184,880,143,864,106,840,91,821,78,793,56,718,41,641,33,586"/>
+<area shape="rect" id="Node000023" href="$libdict__c_8c.html#a1430f7f1d74ed81e43f2ad9c90a01b36" title="Function to get an element from a dictionary." alt="" coords="127,911,195,936"/>
+<area shape="poly" id="edge45_Node000001_Node000023" title=" " alt="" coords="36,586,38,639,46,718,55,762,69,807,87,850,110,890,121,901,117,904,106,893,82,853,64,809,50,763,41,719,32,639,31,586"/>
+<area shape="rect" id="Node000024" href="$libdict__c_8c.html#a05673d028adb14fc9563503711ed9a9d" title="Updates a dictionary with a new element." alt="" coords="116,155,205,180"/>
+<area shape="poly" id="edge47_Node000001_Node000024" title=" " alt="" coords="33,559,53,431,75,340,106,249,122,217,139,190,144,192,126,220,110,251,80,341,59,432,38,560"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="300,31,294,21,297,11,308,5,327,3,349,6,358,15,355,19,346,11,327,8,310,10,301,15,299,20,304,28"/>
+<area shape="poly" id="edge4_Node000003_Node000003" title=" " alt="" coords="139,661,134,652,136,642,146,636,161,633,178,637,186,645,182,649,176,641,161,639,148,641,141,645,139,651,143,659"/>
+<area shape="poly" id="edge5_Node000003_Node000004" title=" " alt="" coords="200,664,271,652,272,657,201,669"/>
+<area shape="rect" id="Node000006" href="$libdict__c_8c.html#abb8df193fba807b68ce0039440c126e3" title="Emptys an array and frees it." alt="" coords="449,457,529,483"/>
+<area shape="poly" id="edge7_Node000005_Node000006" title=" " alt="" coords="198,491,435,472,435,477,198,496"/>
+<area shape="poly" id="edge18_Node000005_Node000008" title=" " alt="" coords="199,499,285,508,405,514,542,511,612,503,679,491,718,479,753,462,756,467,720,484,681,497,612,509,542,516,405,519,285,513,198,504"/>
+<area shape="poly" id="edge15_Node000005_Node000010" title=" " alt="" coords="185,507,215,526,263,562,286,575,283,580,260,567,212,531,182,512"/>
+<area shape="rect" id="Node000007" href="$libdict__c_8c.html#a8dc3c0ff7c9b7e91191f9e473ea16d95" title="Emptys an array, but does not free it." alt="" coords="585,457,680,483"/>
+<area shape="poly" id="edge8_Node000006_Node000007" title=" " alt="" coords="529,475,571,476,571,482,529,481"/>
+<area shape="poly" id="edge9_Node000007_Node000006" title=" " alt="" coords="585,464,542,464,543,459,585,459"/>
+<area shape="poly" id="edge10_Node000007_Node000008" title=" " alt="" coords="680,460,739,450,740,455,680,465"/>
+<area shape="poly" id="edge14_Node000008_Node000008" title=" " alt="" coords="763,433,757,424,760,414,771,408,789,405,810,409,819,417,815,421,808,414,789,411,773,413,764,417,762,423,767,431"/>
+<area shape="rect" id="Node000009" href="$libdict__c_8c.html#aa3b187986f610dbfe0e7138ecaf5b834" title="Emptys a dictionary, but does not free it." alt="" coords="906,432,993,457"/>
+<area shape="poly" id="edge11_Node000008_Node000009" title=" " alt="" coords="825,450,892,451,892,456,825,455"/>
+<area shape="poly" id="edge12_Node000009_Node000006" title=" " alt="" coords="907,460,845,476,764,491,675,500,585,497,541,488,542,483,586,491,675,494,764,486,843,471,906,455"/>
+<area shape="poly" id="edge13_Node000009_Node000008" title=" " alt="" coords="906,439,838,439,838,434,906,434"/>
+<area shape="rect" id="Node000011" href="$libdict__c_8c.html#a8dad6d11fa54bf85129156f410b8bdb0" title="Returns the length of an array." alt="" coords="451,608,526,633"/>
+<area shape="poly" id="edge16_Node000010_Node000011" title=" " alt="" coords="365,600,438,611,437,616,365,605"/>
+<area shape="poly" id="edge17_Node000011_Node000011" title=" " alt="" coords="464,609,459,600,462,590,472,584,489,581,509,585,517,593,513,597,506,590,489,587,474,589,466,593,464,599,469,607"/>
+<area shape="rect" id="Node000013" href="$libdict__c_8c.html#adef177566b15aba5dc4b094d94787551" title="Internal function to recursivly print an array structure." alt="" coords="278,759,375,784"/>
+<area shape="poly" id="edge20_Node000012_Node000013" title=" " alt="" coords="184,732,265,759,264,764,183,737"/>
+<area shape="poly" id="edge22_Node000013_Node000012" title=" " alt="" coords="303,761,218,733,220,728,305,756"/>
+<area shape="poly" id="edge21_Node000013_Node000013" title=" " alt="" coords="300,760,294,750,297,741,308,734,327,732,349,735,358,744,355,748,346,740,327,737,310,739,301,744,299,750,304,757"/>
+<area shape="poly" id="edge23_Node000013_Node000014" title=" " alt="" coords="376,773,433,777,433,783,375,778"/>
+<area shape="rect" id="Node000015" href="$libdict__c_8c.html#a50040fb6b2829de2eaf2d9f682990ce4" title="Internal function to recursivly print a dict structure." alt="" coords="588,772,677,797"/>
+<area shape="poly" id="edge24_Node000014_Node000015" title=" " alt="" coords="530,790,574,791,574,796,530,796"/>
+<area shape="poly" id="edge26_Node000015_Node000012" title=" " alt="" coords="587,775,537,762,465,740,433,732,392,725,302,719,220,721,220,715,302,714,392,719,434,726,466,735,538,757,589,770"/>
+<area shape="poly" id="edge27_Node000015_Node000014" title=" " alt="" coords="588,779,544,779,544,773,588,774"/>
+<area shape="poly" id="edge25_Node000015_Node000015" title=" " alt="" coords="608,773,603,764,606,754,616,748,633,745,653,749,661,757,657,761,650,754,633,751,618,753,610,757,608,763,613,771"/>
+<area shape="rect" id="Node000016" href="$libdict__c_8c.html#a3af1dca169193e36f9c68ebe09d07576" title="Print one elment of type struct dict." alt="" coords="728,772,849,797"/>
+<area shape="poly" id="edge28_Node000015_Node000016" title=" " alt="" coords="678,782,714,782,714,787,678,787"/>
+<area shape="rect" id="Node000017" href="$libdict__c_8c.html#a0cfca3fa77f7a3c0dc6f79843dd2333b" title="Converts type defintions into strings." alt="" coords="897,772,1001,797"/>
+<area shape="poly" id="edge29_Node000016_Node000017" title=" " alt="" coords="850,782,884,782,884,787,850,787"/>
+<area shape="poly" id="edge31_Node000018_Node000013" title=" " alt="" coords="214,769,264,769,264,774,214,774"/>
+<area shape="rect" id="Node000020" href="$libdict__c_8c.html#a683ea23305bff31fd7ed12c1a03d472b" title="Internal Function to delete an element in a struct dict." alt="" coords="277,381,376,407"/>
+<area shape="poly" id="edge35_Node000019_Node000020" title=" " alt="" coords="194,391,263,391,263,397,194,397"/>
+<area shape="poly" id="edge40_Node000019_Node000021" title=" " alt="" coords="184,379,260,342,354,307,437,281,439,286,356,312,262,347,186,384"/>
+<area shape="poly" id="edge37_Node000020_Node000006" title=" " alt="" coords="356,404,450,449,447,454,354,409"/>
+<area shape="poly" id="edge38_Node000020_Node000008" title=" " alt="" coords="376,387,514,382,598,386,681,398,718,409,752,423,750,428,716,414,679,403,597,392,514,387,377,392"/>
+<area shape="poly" id="edge36_Node000020_Node000020" title=" " alt="" coords="300,383,294,373,297,363,308,357,327,355,349,358,358,367,355,371,346,363,327,360,310,362,301,367,299,372,304,380"/>
+<area shape="poly" id="edge39_Node000020_Node000021" title=" " alt="" coords="343,379,459,288,462,292,346,383"/>
+<area shape="poly" id="edge43_Node000022_Node000015" title=" " alt="" coords="513,844,594,802,596,806,516,849"/>
+<area shape="poly" id="edge51_Node000024_Node000002" title=" " alt="" coords="171,153,209,114,260,72,281,59,284,63,263,76,212,118,175,156"/>
+<area shape="poly" id="edge52_Node000024_Node000009" title=" " alt="" coords="181,152,217,133,261,115,323,99,373,92,487,90,634,90,666,93,697,101,726,113,753,130,802,173,844,224,879,279,907,333,942,418,937,420,902,335,874,281,839,227,798,176,750,134,723,118,695,106,665,98,634,95,487,95,373,97,324,105,262,121,220,138,184,157"/>
+<area shape="poly" id="edge53_Node000024_Node000021" title=" " alt="" coords="204,178,439,251,437,256,202,183"/>
+<area shape="poly" id="edge54_Node000024_Node000024" title=" " alt="" coords="139,156,134,146,136,137,146,130,161,128,178,131,186,140,182,143,176,136,161,133,148,135,141,140,139,146,143,153"/>
+<area shape="rect" id="Node000025" href="$libdict__c_8c.html#a1de4639c1a0a2a8779960ef9a3dcf0f9" title="Internal function to add a value to a dictonary." alt="" coords="284,155,369,180"/>
+<area shape="poly" id="edge48_Node000024_Node000025" title=" " alt="" coords="205,165,270,165,270,170,205,170"/>
+<area shape="poly" id="edge50_Node000025_Node000021" title=" " alt="" coords="357,178,393,197,462,245,459,250,391,202,355,182"/>
+<area shape="poly" id="edge49_Node000025_Node000025" title=" " alt="" coords="300,156,294,146,297,137,308,130,327,128,349,131,358,140,355,144,346,136,327,133,310,135,301,140,299,146,304,153"/>
 </map>

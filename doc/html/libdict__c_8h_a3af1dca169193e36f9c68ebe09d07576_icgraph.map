@@ -1,13 +1,30 @@
 <map id="dict_printelement" name="dict_printelement">
-<area shape="rect" id="node1" title="Print one elment of type struct dict." alt="" coords="736,101,873,128"/>
-<area shape="rect" id="node2" href="$libdict__c_8h.html#a50040fb6b2829de2eaf2d9f682990ce4" title="Internal function to recursivly print a dict structure." alt="" coords="591,189,688,216"/>
-<area shape="rect" id="node7" href="$dict__c_8c.html#ac3c43498837f535b458189c48bbbd91a" title=" " alt="" coords="5,145,84,172"/>
-<area shape="rect" id="node3" href="$libdict__c_8h.html#ad37a3c20b8a339bf0f802d72293aaf34" title="Prints a dictonary recursivly as JSON." alt="" coords="452,189,543,216"/>
-<area shape="rect" id="node11" href="$libdict__c_8h.html#a3257c1967a6c8ba2bd904937e6ee4a8c" title="Prints a dictonary recursivly as JSON to a string." alt="" coords="137,297,244,324"/>
-<area shape="rect" id="node4" href="$libdict__c_8h.html#adef177566b15aba5dc4b094d94787551" title="Internal function to recursivly print an array structure." alt="" coords="297,189,404,216"/>
-<area shape="rect" id="node6" href="$libdict__c_8h.html#ac474183ee901f1980a9963e75699b6a1" title="Demonstration of how to use the library." alt="" coords="15,221,74,248"/>
-<area shape="rect" id="node9" href="$dict__c_8c.html#a14dad1dab59bd1a6d736cdbe147a188d" title=" " alt="" coords="319,101,382,128"/>
-<area shape="rect" id="node5" href="$libdict__c_8h.html#a5e98bb8536384f22972a8e77b0ecee1d" title="Prints an array recursivly as JSON." alt="" coords="141,196,241,222"/>
-<area shape="rect" id="node8" href="$libdict__c_8h.html#a1c4e82285e2e5265bc733ad43d3f6ac3" title="Internal function to recursivly print an array structure." alt="" coords="132,145,249,172"/>
-<area shape="rect" id="node10" href="$dict__c_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="163,94,218,121"/>
+<area shape="rect" id="Node000001" title="Print one elment of type struct dict." alt="" coords="707,55,828,81"/>
+<area shape="rect" id="Node000002" href="$libdict__c_8c.html#a50040fb6b2829de2eaf2d9f682990ce4" title="Internal function to recursivly print a dict structure." alt="" coords="569,131,659,157"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="730,89,642,134,639,129,727,85"/>
+<area shape="rect" id="Node000006" href="$dict__c_8c.html#ac3c43498837f535b458189c48bbbd91a" title=" " alt="" coords="5,145,77,170"/>
+<area shape="poly" id="edge18_Node000001_Node000006" title=" " alt="" coords="717,54,606,24,541,13,474,8,326,8,267,9,221,13,177,27,127,54,101,75,80,100,51,146,47,143,76,97,98,71,124,50,175,22,220,8,267,3,326,3,474,3,541,7,608,19,718,49"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="638,121,631,113,614,110,599,112,592,117,590,122,595,130,590,133,585,123,588,114,598,107,614,105,634,108,642,117"/>
+<area shape="rect" id="Node000003" href="$libdict__c_8c.html#ad37a3c20b8a339bf0f802d72293aaf34" title="Prints a dictonary recursivly as JSON." alt="" coords="431,131,514,157"/>
+<area shape="poly" id="edge3_Node000002_Node000003" title=" " alt="" coords="556,156,514,155,514,150,556,150"/>
+<area shape="rect" id="Node000010" href="$libdict__c_8c.html#a5a74adaae05c69a5b02d153688229a29" title="Dumps a dictonary recursivly as JSON to a string." alt="" coords="424,69,521,94"/>
+<area shape="poly" id="edge16_Node000002_Node000010" title=" " alt="" coords="571,128,501,97,504,92,573,123"/>
+<area shape="poly" id="edge12_Node000003_Node000002" title=" " alt="" coords="527,133,569,133,569,138,527,138"/>
+<area shape="rect" id="Node000004" href="$libdict__c_8c.html#adef177566b15aba5dc4b094d94787551" title="Internal function to recursivly dump an array structure as JSON to a string." alt="" coords="279,219,376,245"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="440,166,351,222,348,217,437,162"/>
+<area shape="poly" id="edge15_Node000003_Node000006" title=" " alt="" coords="418,148,78,159,78,154,417,143"/>
+<area shape="rect" id="Node000008" href="$dict__c_8c.html#a14dad1dab59bd1a6d736cdbe147a188d" title=" " alt="" coords="298,94,357,119"/>
+<area shape="poly" id="edge13_Node000003_Node000008" title=" " alt="" coords="417,133,356,117,357,112,419,128"/>
+<area shape="poly" id="edge5_Node000004_Node000004" title=" " alt="" coords="352,209,345,201,327,198,312,200,305,205,303,210,307,218,303,221,298,211,300,202,311,195,327,193,347,196,356,205"/>
+<area shape="rect" id="Node000005" href="$libdict__c_8c.html#a5e98bb8536384f22972a8e77b0ecee1d" title="Prints an array recursivly as JSON." alt="" coords="133,245,223,270"/>
+<area shape="poly" id="edge6_Node000004_Node000005" title=" " alt="" coords="283,251,224,261,223,256,282,245"/>
+<area shape="rect" id="Node000007" href="$libdict__c_8c.html#a008fd1f8c0547a834279cc589559cff2" title="Internal function to recursivly print an array structure." alt="" coords="125,195,231,221"/>
+<area shape="poly" id="edge10_Node000004_Node000007" title=" " alt="" coords="265,225,230,219,231,214,266,220"/>
+<area shape="poly" id="edge8_Node000005_Node000002" title=" " alt="" coords="237,261,304,262,375,254,440,233,501,206,592,155,595,159,504,211,442,238,377,259,304,267,237,266"/>
+<area shape="poly" id="edge7_Node000005_Node000004" title=" " alt="" coords="223,239,278,229,279,235,223,244"/>
+<area shape="poly" id="edge9_Node000005_Node000006" title=" " alt="" coords="134,241,124,234,84,202,53,172,56,168,87,198,127,230,137,236"/>
+<area shape="poly" id="edge11_Node000007_Node000006" title=" " alt="" coords="129,193,76,173,77,168,131,188"/>
+<area shape="rect" id="Node000009" href="$dict__c_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="153,94,203,119"/>
+<area shape="poly" id="edge14_Node000008_Node000009" title=" " alt="" coords="284,109,204,109,204,104,284,104"/>
+<area shape="poly" id="edge17_Node000010_Node000006" title=" " alt="" coords="410,71,348,63,276,59,200,65,162,72,126,84,103,96,83,113,54,147,50,143,79,109,100,92,124,79,161,67,199,60,276,54,349,58,410,66"/>
 </map>

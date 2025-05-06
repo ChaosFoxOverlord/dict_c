@@ -1,4 +1,5 @@
 <map id="dict_printelement" name="dict_printelement">
-<area shape="rect" id="node1" title="Print one elment of type struct dict." alt="" coords="5,5,143,32"/>
-<area shape="rect" id="node2" href="$libdict__c_8c.html#ab03c38de6344768b13bc1f2648cc5ad2" title="Converts type defintions into strings." alt="" coords="191,5,305,32"/>
+<area shape="rect" id="Node000001" title="Print one elment of type struct dict." alt="" coords="5,5,127,31"/>
+<area shape="rect" id="Node000002" href="$libdict__c_8c.html#a0cfca3fa77f7a3c0dc6f79843dd2333b" title="Converts type defintions into strings." alt="" coords="175,5,279,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="127,15,161,15,161,21,127,21"/>
 </map>
